@@ -1,0 +1,14 @@
+:root {
+    --cor-tema: black;
+}
+
+.todo-corpo {
+    display: flex;
+    flex-direction: column;
+}
+
+.secao-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

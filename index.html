@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Abner Andrade</title>
+	
+	<!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/base.css">
+
+    <link rel="stylesheet" href="css/skills/skills.css">
+    <link rel="stylesheet" href="css/skills/skills-cards.css">
+
+</head>
+
+
+<body class="todo-corpo">
+
+	<header class="cabecalho-container" id="cabecalho">
+
+		<!-- MENU ----------->
+		<nav class="menu">
+			<!-- imagem perfil / logo 
+            <img class="icon-svg logo-svg" src="assets/logo-icon.svg">
+            -->
+			
+
+			<!-- LISTA MENU -->
+			<ul class="menu__lista">
+				<a href="#inicio">
+					<li class="menu__lista__item">Início</li>
+				</a>
+                <a href="#skills">
+					<li class="menu__lista__item">Skills</li>
+				</a>
+				<a href="#formacao">
+					<li class="menu__lista__item">Formação</li>
+				</a>
+				<a href="#experiencias">
+					<li class="menu__lista__item">Experiencias</li>
+				</a>
+				<a href="#sobre">
+					<li class="menu__lista__item">Sobre Mim</li>
+				</a>
+				<a href="#contato">
+					<li class="menu__lista__item">Contato</li>
+				</a>
+			</ul>
+
+			<!-- icone configuracao
+            <img class="icon-svg conf-svg" src="assets/config-icon.svg">
+             -->
+			
+		</nav>
+
+	</header>
+
+    <main class="principal-container" id="principal">
+        
+        <!-- PRINCIPAL -->
+        <section class="secao-container" id="inicio">
+            <div>
+                <p>Sinta-se à vontade.</p>
+                <h1>Me chamo Abner</h1>
+                <p>Desenvolvedor Front-End, alune do Oracle One e cheio de entusiasmo.</p>
+                <h2>É um prazer te receber aqui.</h2>
+            </div> 
+        </section>
+
+        <!-- SKILLS -->
+        <section class="secao-container" id="skills">
+            <h2>Skills</h2>
+            <div class="skills__card">
+                <h3>HTML</h3>
+            </div>
+
+            <div class="skills__card">
+                <h3>CSS</h3>
+            </div>
+
+            <div class="skills__card">
+                <h3>JavaScript</h3>
+            </div>
+
+            <div class="skills__card">
+                <h3>Python</h3>
+            </div>
+            
+            <div class="skills__card">
+                <h3>Java</h3>
+            </div>
+
+            <div class="skills__card">
+                <h3>Git</h3>
+            </div>
+        </section>
+
+        <!-- FORMAÇÃO -->
+        <section class="secao-container" id="formacao">
+            <h2>Formação</h2>
+            
+            <section>
+                <div class="formacao__card">
+                    <h3>Análise e Desenvolvimento de Sistemas</h3>
+    
+                </div>
+    
+                <div class="formacao__card">
+                    <h3>Análise de Dados</h3>
+                </div>
+    
+                <div class="formacao__card">
+                    <h3>Administração</h3>
+                </div>
+            </section>
+            
+            <section>
+                <div class="formacao__card">
+                    <h3>Desenvolvimento Web e Programação</h3>
+                </div>
+                
+                <div class="formacao__card">
+                    <h3>Java</h3>
+                </div>
+    
+                <div class="formacao__card">
+                    <h3>HTML e CSS</h3>
+                </div>
+            </section>
+            
+        </section>
+
+        <!-- EXPERIÊNCIAS -->
+        <section class="secao-container" id="experiencias">
+            <h2>Experiências</h2>
+
+            <section>
+                <h3>Projetos</h3>
+                <div class="cardexperiencia-container">
+                    <h4>Jogo da Forca</h4>
+    
+                </div>
+    
+                <div class="cardexperiencia-container">
+                    <h4>Tradutor</h4>
+                </div>
+    
+                <div class="cardexperiencia-container">
+                    <h4>Acessibilidade HTML</h4>
+                </div>
+            </section>
+            
+            <section>
+                <h3>Experiências Agregadoras</h4>
+                <div class="cardexperiencia-container">
+                    <h4>Compras</h4>
+                </div>
+                
+                <div class="cardexperiencia-container">
+                    <h4>Técnico-Acadêmico</h4>
+                </div>
+    
+                <div class="cardexperiencia-container">
+                    <h3>Diretório</h3>
+                </div>
+            </section>
+        </section>
+
+        <!-- SOBRE MIM -->
+        <section class="secao-container" id="sobre">
+            <h2>Sobre Mim</h2>
+            <div class="sobre__carroselstory">
+                
+            </div>
+            <div class="sobre__textoanimado">
+                <pre class="sobre__textoanimado_conteudo"></pre>
+            </div>
+        </section>
+
+        <!-- CONTATO-->
+        <section class="secao-container" id="contato">
+            <h2>Contato</h2>
+            
+            <div id="contatosformulario-container">
+                <h3>Envie uma Mensagem</h3>
+                <p>E te respondo já já</p>
+
+                <form>
+                    <div class="formulario__campo" id="campo-nome">
+                        <label for="form-email">Seu nome</label>
+                        <input type="text" name="form_name" id="form_name">
+                    </div>
+                    <div class="formulario__campo" id="campo-email">
+                        <label for="form-email">Seu email</label>
+                        <input class="formulario__campo__email" type="text" name="form-email">
+                    </div>
+                    <div class="formulario__campo">
+                        <label for="message">Mensagem</label>
+                        <textarea class="input input-texto" rows="8" cols="8" type="text" name="mensagem" id="mesagem"
+                            spellcheck="false"></textarea>
+                    </div>
+                    <div class="botao">
+                        <input id="botao-enviar" type="submit" id="button" value="Enviar">
+                    </div>
+                </form>
+                
+
+            </div>
+
+            <div id="contatoslinks-container">
+                <h3>Redes</h3>
+                <ul class="contatoslinks__lista">
+                    <a href="#">
+                        <li class="contatoslinks__lista__item">LinkedIn</li>
+                    </a>
+                    <a href="#">
+                        <li class="contatoslinks__lista__item">GitHub</li>
+                    </a>
+                    <a href="#">
+                        <li class="contatoslinks__lista__item">WhatsApp</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div id="contatosinfos-container">
+                <ul class="contatosinfos__lista">
+                    <a href="#inicio">
+                        <li class="contatosinfos__lista__item">Telefone</li>
+                    </a>
+                    <a href="#skills">
+                        <li class="contatosinfos__lista__item">E-mail</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div id="contatoscurriculo-container">
+                <h3>Meu CV</h3>
+                <p>Meu currículo atualizado, disponível já.</p>
+                <h4>PDF</h4>
+                <h4>Word</h4>
+            </div>
+
+        </section>
+
+
+    </main>
+	
+	<footer class="rodape-container" id="rodape">
+        <h2>Desenvolvido por Abner Andrade</h2>
+        <p>2022</p>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="js/core.js"></script>
+    <script src="js/textoanimado.js"></script>
+</body>
+
+</html>
+
