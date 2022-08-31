@@ -1,0 +1,15 @@
+.inicio__texto {
+    height: 80%;
+    padding: 1rem 0.5rem;
+}
+
+#inicio__texto__subtitulo {
+    font-size: 0.5rem;
+    transition-property: font-size;
+    transition-duration: 5s;
+    transition-delay: 1s;
+}
+
+#inicio__texto__subtitulo:hover {
+    font-size: 1rem;
+}

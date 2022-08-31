@@ -1,12 +1,12 @@
 .skills__card {
 	align-items: center;
 	background-color: #F0F;
-	border-radius: 10px;
+	border-radius: 1px;
 	box-shadow: #CCCCCC;
 	display: flex;
 	flex-direction: column;
-	margin: 1em;
-	max-width: 300px;
+	margin: 0.25rem;
+	max-width: 360px;
     min-width: 220px;
 }
 

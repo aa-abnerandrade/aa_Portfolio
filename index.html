@@ -6,12 +6,27 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Abner Andrade</title>
 	
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
 	<!-- CSS -->
     <link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/base.css">
 
+    <link rel="stylesheet" href="css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="css/cabecalho/cabecalho-menu.css">
+    <link rel="stylesheet" href="css/inicio/inicio.css">
+    <link rel="stylesheet" href="css/inicio/inicio-video.css">
+    <link rel="stylesheet" href="css/inicio/inicio-texto.css">
     <link rel="stylesheet" href="css/skills/skills.css">
     <link rel="stylesheet" href="css/skills/skills-cards.css">
+    <link rel="stylesheet" href="css/contato/contato.css">
 
 </head>
 
@@ -21,11 +36,7 @@
 	<header class="cabecalho-container" id="cabecalho">
 
 		<!-- MENU ----------->
-		<nav class="menu">
-			<!-- imagem perfil / logo 
-            <img class="icon-svg logo-svg" src="assets/logo-icon.svg">
-            -->
-			
+		<nav class="menu">	
 
 			<!-- LISTA MENU -->
 			<ul class="menu__lista">
@@ -39,7 +50,7 @@
 					<li class="menu__lista__item">Formação</li>
 				</a>
 				<a href="#experiencias">
-					<li class="menu__lista__item">Experiencias</li>
+					<li class="menu__lista__item">Experiências</li>
 				</a>
 				<a href="#sobre">
 					<li class="menu__lista__item">Sobre Mim</li>
@@ -61,11 +72,21 @@
         
         <!-- PRINCIPAL -->
         <section class="secao-container" id="inicio">
-            <div>
+            <!-- imagem perfil / logo 
+            <img class="icon-svg logo-svg" src="assets/logo-icon.svg">
+            -->
+            <div class="inicio__video">
+                <video muted="" loop="" autoplay="" class="inicio__video__item" data-video="0">
+                    <source src="assets/videos/background-intro-inicio-mobile.webm">
+                </video>
+            </div>
+            
+
+            <div class="inicio__texto">
                 <p>Sinta-se à vontade.</p>
-                <h1>Me chamo Abner</h1>
-                <p>Desenvolvedor Front-End, alune do Oracle One e cheio de entusiasmo.</p>
-                <h2>É um prazer te receber aqui.</h2>
+                <h1 id="inicio__texto__titulo">Me chamo Abner</h1>
+                <p id="inicio__texto__descricao">Desenvolvedor Front-End, aluno do Oracle One e cheio de entusiasmo.</p>
+                <h2 id="inicio__texto__subtitulo">É um prazer te receber aqui.</h2>
             </div> 
         </section>
 
@@ -183,32 +204,6 @@
         <section class="secao-container" id="contato">
             <h2>Contato</h2>
             
-            <div id="contatosformulario-container">
-                <h3>Envie uma Mensagem</h3>
-                <p>E te respondo já já</p>
-
-                <form>
-                    <div class="formulario__campo" id="campo-nome">
-                        <label for="form-email">Seu nome</label>
-                        <input type="text" name="form_name" id="form_name">
-                    </div>
-                    <div class="formulario__campo" id="campo-email">
-                        <label for="form-email">Seu email</label>
-                        <input class="formulario__campo__email" type="text" name="form-email">
-                    </div>
-                    <div class="formulario__campo">
-                        <label for="message">Mensagem</label>
-                        <textarea class="input input-texto" rows="8" cols="8" type="text" name="mensagem" id="mesagem"
-                            spellcheck="false"></textarea>
-                    </div>
-                    <div class="botao">
-                        <input id="botao-enviar" type="submit" id="button" value="Enviar">
-                    </div>
-                </form>
-                
-
-            </div>
-
             <div id="contatoslinks-container">
                 <h3>Redes</h3>
                 <ul class="contatoslinks__lista">
@@ -241,6 +236,32 @@
                 <h4>PDF</h4>
                 <h4>Word</h4>
             </div>
+
+            <div id="contatosformulario-container">
+                <h3>Envie uma Mensagem</h3>
+                <p>E te respondo já já</p>
+
+                <form>
+                    <div class="formulario__campo" id="campo-nome">
+                        <label for="form-email">Seu nome</label>
+                        <input type="text" name="form_name" id="form_name">
+                    </div>
+                    <div class="formulario__campo" id="campo-email">
+                        <label for="form-email">Seu email</label>
+                        <input class="formulario__campo__email" type="text" name="form-email">
+                    </div>
+                    <div class="formulario__campo">
+                        <label for="message">Mensagem</label>
+                        <textarea class="input input-texto" rows="8" cols="8" type="text" name="mensagem" id="mesagem"
+                            spellcheck="false"></textarea>
+                    </div>
+                    <div class="botao">
+                        <input id="botao-enviar" type="submit" id="button" value="Enviar">
+                    </div>
+                </form>
+            </div>
+
+
 
         </section>
 
