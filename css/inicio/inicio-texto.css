@@ -1,11 +1,19 @@
 .inicio__texto {
-    height: 50%;
+    height: 45%;
     padding: 1rem 0.5rem;
-    
+    vertical-align: middle;
+}
+
+#inicio__texto__titulo {
+    color: var(--vermelhoAbsoluto);
+    font-family: 'Confortaa', Impact, sans-serif;
+    font-size: 1.5rem;
 }
 
 #inicio__texto__subtitulo {
-    font-size: 0.5rem;
+    color: var(--vermelhoAbsoluto);
+    font-family: 'Confortaa', Impact, sans-serif;
+    font-size: 0.9rem;
     transition-property: font-size;
     transition-duration: 5s;
     transition-delay: 1s;
@@ -13,4 +21,25 @@
 
 #inicio__texto__subtitulo:hover {
     font-size: 1rem;
+}
+
+
+#inicio__texto__descricao {
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#inicio__texto__descricao strong {
+    color: var(--vermelhoAbsoluto);
+    font-family: 'Abel', sans-serif;
+    font-weight: bolder;
+
+}
+
+#inicio__texto__boasvindas {
+    color: var(--vermelhoAbsoluto);
+    font-family: 'Confortaa', Impact, sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
 }
