@@ -2,3 +2,8 @@
     height: 636px;
     position: relative;
 }
+
+#inicio__scroll {
+    margin: 1rem;
+    padding: 1rem;
+}

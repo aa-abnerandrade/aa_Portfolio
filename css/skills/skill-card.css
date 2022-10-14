@@ -1,0 +1,15 @@
+.skills__cards__item {
+	/* align-items: center; */
+	background-color: #252525;
+	border-radius: 20%;
+	box-shadow: #CCCCCC;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin: 0.25rem;
+	max-height: 300px;
+	max-width: 100%;
+	min-height: 135px;
+    min-width: 100px;
+	padding: 0.5rem;
+}

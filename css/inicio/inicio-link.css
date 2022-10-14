@@ -1,0 +1,20 @@
+.inicio__links {
+    display: block;
+}
+
+
+.inicio__links__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.inicio__links____lista__item {
+    text-align: left;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+}

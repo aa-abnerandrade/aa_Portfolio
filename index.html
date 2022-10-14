@@ -24,8 +24,10 @@
     <link rel="stylesheet" href="css/inicio/inicio.css">
     <link rel="stylesheet" href="css/inicio/inicio-video.css">
     <link rel="stylesheet" href="css/inicio/inicio-texto.css">
+    <link rel="stylesheet" href="css/inicio/inicio-link.css">
     <link rel="stylesheet" href="css/skills/skills.css">
     <link rel="stylesheet" href="css/skills/skills-cards.css">
+    <link rel="stylesheet" href="css/skills/skill-card.css">
     <link rel="stylesheet" href="css/formacao/formacao.css">
     <link rel="stylesheet" href="css/formacao/formacao-lista.css">
     <link rel="stylesheet" href="css/formacao/formacao-card.css">
@@ -91,35 +93,51 @@
                 <p id="inicio__texto__descricao">Desenvolvedor Front-End, alumni Oracle One e cheio de entusiasmo.</p>
                 <h2 id="inicio__texto__subtitulo">É um prazer te receber aqui.</h2>
             </div> 
+
+            <div class="inicio__links">
+
+                <ul class="inicio__links__lista">
+                    <li class="inicio__links__lista__item"><a href="https://github.com/aa-abnerandrade" class="font-p-m cor-6">Github <img src="assets/svgs/seta-link.svg" alt=""></a></li>
+
+                    <li class="inicio__links__lista__item"><a href="https://www.linkedin.com/in/abnerandrade/" class="font-p-m cor-6">LinkedIn <img src="assets/svgs/seta-link.svg" alt=""></a></li>
+
+                    <li class="inicio__links__lista__item"><a href="https://api.whatsapp.com/send?phone=5521973257039&text=Ol%C3%A1%2C%20Abner!%20Vi%20teu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20com%20voc%C3%AA.%20" class="font-p-m cor-6">WhatsApp <img src="assets/svgs/seta-link.svg" alt=""></a></li>
+                  </ul>
+
+            </div>
+
+            <div id="inicio__scroll">
+                <a href="#skills"><img src="assets/svgs/seta-down.svg" alt="Seta Para Scrollar Página"></a>
+            </div>
+
         </section>
 
         <!-- SKILLS -->
         <section class="secao-container" id="skills">
             <h2>Skills</h2>
             
-            <div class="skills__card">
-                <h3>HTML</h3>
-            </div>
-
-            <div class="skills__card">
-                <h3>CSS</h3>
-            </div>
-
-            <div class="skills__card">
-                <h3>JavaScript</h3>
-            </div>
-
-            <div class="skills__card">
-                <h3>Python</h3>
+            <div class="skills__cards">
+                <div class="skills__cards__item">
+                    <h3>HTML</h3>
+                </div>
+                <div class="skills__cards__item">
+                    <h3>CSS</h3>
+                </div>
+                <div class="skills__cards__item">
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skills__cards__item">
+                    <h3>Python</h3>
+                </div>
+                
+                <div class="skills__cards__item">
+                    <h3>Java</h3>
+                </div>
+                <div class="skills__cards__item">
+                    <h3>Git</h3>
+                </div>
             </div>
             
-            <div class="skills__card">
-                <h3>Java</h3>
-            </div>
-
-            <div class="skills__card">
-                <h3>Git</h3>
-            </div>
         </section>
 
         <!-- FORMAÇÃO -->
@@ -132,7 +150,7 @@
                     <li>
                         <div class="formacao__lista__card">
                             <img src="assets/imagens/formacao/pucpr.png" alt="Logo da Puc Paraná" class="formacao__lista__card__imagem">
-                            <h3>Análise e Desenvolvimento de Sistemas</h3>
+                            <h3>ADS</h3>
                         </div>
                     </li>
                     <li>

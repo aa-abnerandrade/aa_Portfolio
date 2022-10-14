@@ -1,16 +1,7 @@
-.skills__card {
-	/* align-items: center; */
-	background-color: #252525;
-	border-radius: 20%;
-	box-shadow: #CCCCCC;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	margin: 0.25rem;
-	max-height: 300px;
-	max-width: 360px;
-	min-height: 135px;
-    min-width: 220px;
-	padding: 0.5rem;
+.skills__cards{
+	display: grid;
+    gap: 32px 16px;
+    grid-template-columns: repeat(auto-fit,minmax(176px, 200px));
+	justify-content: center;
 }
 
