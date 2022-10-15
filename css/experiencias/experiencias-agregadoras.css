@@ -1,0 +1,18 @@
+#experiencias__agregadoras {
+    text-align: center;
+    max-width: 100%;
+}
+
+.experiencias__agregadoras__lista {
+    max-width: 100%;
+    padding: 0 0.2rem;
+}
+
+.experiencias__agregadoras__lista dt {
+    text-align: center;
+}
+
+.experiencias__agregadoras__lista dd {
+    font-size: 0.6rem;
+    padding-bottom: 0.6rem;
+}

@@ -36,7 +36,13 @@
     <link rel="stylesheet" href="css/experiencias/experiencias.css">
     <link rel="stylesheet" href="css/experiencias/experiencias-projetos.css">
     <link rel="stylesheet" href="css/experiencias/experiencias-agregadoras.css">
+    <link rel="stylesheet" href="css/sobremim/sobremim.css">
+    <link rel="stylesheet" href="css/sobremim/sobre-carrossel.css">
+    <link rel="stylesheet" href="css/sobremim/sobre-texto.css">
     <link rel="stylesheet" href="css/contato/contato.css">
+    <link rel="stylesheet" href="css/contato/contato-links.css">
+    <link rel="stylesheet" href="css/contato/contato-curriculo.css">
+    <link rel="stylesheet" href="css/rodape/rodape.css">
 
 </head>
 
@@ -249,16 +255,19 @@
             <section class="experiencias__secao">
                 <div id="experiencias__agregadoras">
                     <h3>Experiências Agregadoras</h4>
-                    <div class="cardexperiencia-container">
-                        <h4>Compras</h4>
-                    </div>
                     
-                    <div class="cardexperiencia-container">
-                        <h4>Técnico-Acadêmico</h4>
-                    </div>
-                    <div class="cardexperiencia-container">
-                        <h3>Diretório</h3>
-                    </div>
+                        <dl class="experiencias__agregadoras__lista">
+                        
+                        <dt>Comprador</dt>
+                        <dd>Comecei em 2016 e atuei por 7 anos na área de Compras & Procurement, área que me deu oportunidade de aplicar skills como capacidade analítica, gerenciamento de processos, análise de indicadores, gestão de equipe e liderança. E também, foi onde tive o primeiro contato com manipulação e análise de dados e linguagens de programação, o que me levou a me dedicar exclusivamente aos estudos de Programação e Tecnologia, em busca da primeira oportunidade como pessoa Desenvolvedora.</dd>
+                        
+                        <dt>Técnico-Acadêmico</dt>
+                        <dd>Entre 2015 e 2020, durante a 1ª graduação (Administração/UFRRJ), fui selecionado em 4 processos para vaga de Técnico-Acadêmico. Esses cenários me possibilitaram aplicar conceitos acadêmicos em contextos corporativos. Dentre eles, destaco: mapeamento de processos, planejamento estratético, modelos estatísticos e planejamento orçamentário e financeiro.</dd>
+
+                        <dt>Presidente do DAAD</dt>
+                        <dd>Presidi o Diretório Acadêmico de Administração da UFRRJ em 2016. Atualmente, ainda guardo com carinho o marco de eleição discente com maior número de votantes de toda a história da Universidade. O modelo de negócio desenvolvido e implantado teve reconhecimento em outras Universidades no RJ e abriu portas para atuar em Diretórios e Empresas Juniores em instituições como UFRJ, UEZO, UFF, UERJ e ESPM. Pouco tempo depois, o modelo e parceria geraram a maior Associação Livre de Discentes do Brasil.</dd>
+                        
+                    </dl>
                 </div>
             </section>
         </section>
@@ -266,75 +275,81 @@
         <!-- SOBRE MIM -->
         <section class="secao-container" id="sobre">
             <h2>Sobre Mim</h2>
-            <div class="sobre__carroselstory">
+            
+            <div class="sobre__carrossel">
                 
             </div>
+
             <div class="sobre__textoanimado">
                 <pre class="sobre__textoanimado_conteudo"></pre>
             </div>
+
         </section>
 
         <!-- CONTATO-->
         <section class="secao-container" id="contato">
             <h2>Contato</h2>
             
-            <div id="contatoslinks-container">
-                <h3>Redes</h3>
-                <ul class="contatoslinks__lista">
-                    <a href="#">
-                        <li class="contatoslinks__lista__item">LinkedIn</li>
-                    </a>
-                    <a href="#">
-                        <li class="contatoslinks__lista__item">GitHub</li>
-                    </a>
-                    <a href="#">
-                        <li class="contatoslinks__lista__item">WhatsApp</li>
-                    </a>
+            <div class="div-contato" id="contato__links-container">
+                <h3>Me encontre em</h3>
+                
+                <ul class="contato__links__lista">
+                    
+                    <li class="contato__links__lista__item">
+                        <a href="#"><img class="contato__links__lista__item__imagem" src="assets/svgs/redes/linkedin.svg" alt="Ícone do LinkedIn"></img></a>
+                    </li>
+
+                    <li class="contato__links__lista__item">
+                        <a href="#"><img class="contato__links__lista__item__imagem" src="assets/svgs/redes/github.svg" alt="Ícone do GitHub"></img></a>
+                    </li>
+
+                    <li class="contato__links__lista__item">
+                        <a href="#"><img class="contato__links__lista__item__imagem" src="assets/svgs/redes/whatsapp.svg" alt="Ícone do WhatsApp"></img></a>
+                    </li>
+
                 </ul>
             </div>
 
-            <div id="contatosinfos-container">
-                <ul class="contatosinfos__lista">
-                    <a href="#inicio">
-                        <li class="contatosinfos__lista__item">Telefone</li>
-                    </a>
-                    <a href="#skills">
-                        <li class="contatosinfos__lista__item">E-mail</li>
-                    </a>
-                </ul>
+            <div class="div-contato" id="contato__infos-container">
+                <h3>E-mail</h3>
+                <p>aa.AbnerAndrade@outlook.com.br</p>
+                
             </div>
 
-            <div id="contatoscurriculo-container">
+            <div class="div-contato" id="contato__curriculo-container">
                 <h3>Meu CV</h3>
-                <p>Meu currículo atualizado, disponível já.</p>
-                <h4>PDF</h4>
-                <h4>Word</h4>
+                <br>
+                <a id="contato__curriculo__donwload" target="_blank" download="CV_AbnerAndrade_DesenvolvedorFrontEnd" href="assets/docs/cv_abnerandrade_portfolio.pdf">Abrir currículo em PDF <img src="assets/svgs/setas/seta-link.svg" alt="Link para Github de Abner Andrade"></a>
+
             </div>
 
+            <!--
             <div id="contatosformulario-container">
                 <h3>Envie uma Mensagem</h3>
-                <p>E te respondo já já</p>
-
-                <form>
-                    <div class="formulario__campo" id="campo-nome">
-                        <label for="form-email">Seu nome</label>
-                        <input type="text" name="form_name" id="form_name">
-                    </div>
-                    <div class="formulario__campo" id="campo-email">
-                        <label for="form-email">Seu email</label>
-                        <input class="formulario__campo__email" type="text" name="form-email">
-                    </div>
-                    <div class="formulario__campo">
-                        <label for="message">Mensagem</label>
-                        <textarea class="input input-texto" rows="8" cols="8" type="text" name="mensagem" id="mesagem"
+                <form action="./cadastro_concluido.html" id="formulario">
+                    <fieldset>
+                        <legend id="formulario__legenda">Te respondo já!</legend>
+                        
+                        <div class="div-formulario__campo">
+                            <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-tipo="nome" required>
+                            <label class="input-label" for="nome">Nome</label>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
+                        </div>
+                        <div class="div-formulario__campo">
+                            <input name="email" id="email" class="input" type="email" placeholder="Email" data-tipo="email" required>
+                            <label class="input-label" for="email">Email</label>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
+                        </div>
+                        <div class="formulario__campo" id="campo-mensagem">
+                            <label for="message">Mensagem</label>
+                            <textarea class="input input-texto" rows="8" cols="8" type="text" name="mensagem" id="mesagem"
                             spellcheck="false"></textarea>
-                    </div>
-                    <div class="botao">
-                        <input id="botao-enviar" type="submit" id="button" value="Enviar">
-                    </div>
+                        </div>   
+                    </fieldset>
+                    <button class="botoes" type="submit">Enviar Mensagem</a>
                 </form>
             </div>
-
+            -->
 
 
         </section>
@@ -343,8 +358,14 @@
     </main>
 	
 	<footer class="rodape-container" id="rodape">
-        <h2>Desenvolvido por Abner Andrade</h2>
-        <p>2022</p>
+        <div class="rodape__scroll">
+            <a id="rodape__scroll__seta" href="#inicio"><img src="assets/svgs/setas/seta-top.svg" alt="Seta Para Voltar à Seção Início"></a>
+            <p>Voltar ao Topo</p>
+        </div>
+        <div class="rodape__creditos">
+            <h2>Desenvolvido por Abner Andrade</h2>
+            <p>2022</p>
+        </div>
     </footer>
 
     <!-- SCRIPT -->

@@ -1,4 +1,19 @@
 #contato {
+    background-color: var(--vermelhoAmeno);
+    border-bottom: 10px solid var(--vermelhoAmeno);
     display: flex;
     flex-direction: column;
+}
+
+#contato h3 {
+    font-size: 0.8rem;
+    margin: 0.6rem 0;
+    text-align: center;
+}
+
+.div-contato {
+    text-align: center;
+    max-width: 100%;
+    padding: 0.8rem 0;
+    width: 100%;
 }

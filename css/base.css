@@ -15,6 +15,8 @@
     
     font-family: 'Abel', sans-serif;
     font-size: 25px;
+    scroll-behavior: smooth;
+
 }
 
 .todo-corpo {

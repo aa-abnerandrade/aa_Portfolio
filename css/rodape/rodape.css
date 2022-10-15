@@ -1,0 +1,30 @@
+#rodape {
+    padding-top: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.rodape__scroll {
+    background-color: var(--vermelhoAmeno);
+    padding-bottom: 0.25rem;
+    width: 100%;
+}
+
+#rodape__scroll__seta {
+    display: flex;
+    justify-content: center;
+}
+
+#rodape__scroll__seta img {
+    max-height: 50%;
+}
+
+.rodape__scroll p {
+    color: var(--vermelhoAbsoluto);
+    font-size: 0.6rem;
+}
+
+.rodape__creditos {
+    font-size: 0.6rem;
+    padding: 1rem;
+}
