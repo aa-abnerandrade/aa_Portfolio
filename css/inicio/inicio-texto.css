@@ -1,19 +1,20 @@
 .inicio__texto {
     height: 45%;
-    padding: 1rem 0.5rem;
-    vertical-align: middle;
+    padding: 0.5rem 0.5rem;
 }
 
 #inicio__texto__titulo {
     color: var(--vermelhoAbsoluto);
     font-family: 'Confortaa', Impact, sans-serif;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 #inicio__texto__subtitulo {
     color: var(--vermelhoAbsoluto);
     font-family: 'Confortaa', Impact, sans-serif;
     font-size: 0.9rem;
+    text-align: center;
     transition-property: font-size;
     transition-duration: 5s;
     transition-delay: 1s;
@@ -27,7 +28,7 @@
 #inicio__texto__descricao {
     font-size: 0.8rem;
     text-align: center;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
 }
 
 #inicio__texto__descricao strong {
@@ -37,9 +38,3 @@
 
 }
 
-#inicio__texto__boasvindas {
-    color: var(--vermelhoAbsoluto);
-    font-family: 'Confortaa', Impact, sans-serif;
-    font-size: 0.8rem;
-    text-align: center;
-}

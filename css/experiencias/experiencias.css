@@ -1,0 +1,14 @@
+#experiencias {
+    background-color: var(--vermelhoAbsoluto);
+}
+
+.experiencias__secao {
+    max-width: 100%;
+    padding: 1rem 0;
+}
+
+.experiencias__secao h3 {
+    font-size: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+}

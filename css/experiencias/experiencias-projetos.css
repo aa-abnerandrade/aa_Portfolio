@@ -1,0 +1,35 @@
+#experiencias__projetos {
+    align-content: center;
+}
+
+.experiencias__projetos__card {
+    align-items: center;
+    background-color: var(--vermelhoAmeno);
+    border-bottom: 0.2rem solid var(--vermelhoAmeno);
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+    padding-bottom: 0;
+}
+
+.experiencias__projetos__card h4 {
+    background-color: var(--vermelhoAmeno);
+    font-family: 'Confortaa', Impact, sans-serif;
+    font-weight: lighter;
+    padding: 0.5rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+.experiencias__projetos__card__imagem {
+    max-width: 99%;
+}
+
+.div-botoes__projetos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.botoes__repositorio {
+    color: var(--vermelhoAmeno);
+}

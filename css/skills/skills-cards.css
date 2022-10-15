@@ -1,7 +1,18 @@
-.skills__cards{
-	display: grid;
-    gap: 32px 16px;
-    grid-template-columns: repeat(auto-fit,minmax(176px, 200px));
-	justify-content: center;
+.skills__cards {
+    background-color: var(--vermelhoAmeno);
+    padding: 1rem 0;
+    max-width: 100%;
+    width: 100%;
 }
 
+
+#div-container__skills__cards {
+	display: grid;
+    gap: 1rem 0.5rem;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    word-wrap: break-word;
+}
+
+
+   

@@ -1,10 +1,10 @@
 :root {
     --brancoAbsoluto: #FFFFFF;
     --brancoAmeno: #FAFAFA;
-    --pretoAbsoluto: #000000;
-    --pretoAmeno: #151819;
+    --pretoAbsoluto: #101010;
+    --pretoAmeno: #171819;
     --vermelhoAbsoluto: #ED145B;
-    --vermelhoAmeno: #6B0929;
+    --vermelhoAmeno: #7C062E;
 
 
 
@@ -43,4 +43,15 @@ h2 {
 h3 {
     font-size: 0.5rem;
     text-transform: uppercase;
+}
+
+.botoes {
+    background-color: var(--vermelhoAbsoluto);
+    border: none;
+    color: var(--brancoAbsoluto);
+    font-size: 0.6rem;
+    font-weight: bolder;
+    height: 50px;
+    margin: 0.25rem;
+    width: 50%;
 }

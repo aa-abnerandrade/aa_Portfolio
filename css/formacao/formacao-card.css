@@ -1,3 +1,14 @@
-.formacao__lista__card__imagem {
-    border-radius: 3%;
+.formacao__secao__lista__card {
+    max-width: 100%;
+    width: 100%;
+}
+
+.formacao__secao__lista__card h3 {
+    font-size: 0.8rem;
+    font-weight: bolder;
+    padding: 0.25rem;
+}
+
+.formacao__secao__lista__card__imagem {
+    border-radius: 10%;
 }

@@ -2,3 +2,12 @@
     display: flex;
     flex-direction: column;
 }
+
+#formacao h2 {
+    margin: 1rem;
+}
+
+.formacao__secao {
+    margin-bottom: 1rem;
+    width: 100%;
+}

@@ -1,9 +1,6 @@
 #inicio {
-    height: 636px;
+    
+    padding: 0 0.1rem;
     position: relative;
 }
 
-#inicio__scroll {
-    margin: 0.5rem;
-    padding: 1rem;
-}
