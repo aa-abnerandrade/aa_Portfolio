@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Abner Andrade</title>
 	
+
     <!-- FONTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +16,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 
+
 	<!-- CSS -->
     <link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/global.css">
 
     <link rel="stylesheet" href="css/cabecalho/cabecalho.css">
     <link rel="stylesheet" href="css/cabecalho/cabecalho-menu.css">
@@ -44,47 +46,60 @@
     <link rel="stylesheet" href="css/contato/contato-curriculo.css">
     <link rel="stylesheet" href="css/rodape/rodape.css">
 
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
 </head>
 
 
-<body class="todo-corpo">
+<body class="all">
 
-	<header class="cabecalho-container" id="cabecalho">
+
+	<header class="cont-header" id="header">
 
 		<!-- MENU ----------->
-		<nav class="menu">	
+		<nav class="cont-header__menu">	
+
+            <!-- ICONE-->
+            <div class="menu__more">
+                <button class="menu__more__icon" id="icon__button" type="button">
+                    <i class="uil uil-border-inner" id="icon__text"></i>
+                </button>
+            </div>
+
 
 			<!-- LISTA MENU -->
-			<ul class="menu__lista">
-				<a href="#inicio">
-					<li class="menu__lista__item">Início</li>
-				</a>
-                <a href="#skills">
-					<li class="menu__lista__item">Skills</li>
-				</a>
-				<a href="#formacao">
-					<li class="menu__lista__item">Formação</li>
-				</a>
-				<a href="#experiencias">
-					<li class="menu__lista__item">Experiências</li>
-				</a>
-				<a href="#sobre">
-					<li class="menu__lista__item">Sobre Mim</li>
-				</a>
-				<a href="#contato">
-					<li class="menu__lista__item">Contato</li>
-				</a>
-			</ul>
+			<div class="menu__navigation--hidden">
+                <ul class="navigation__list">
+                    <a href="#inicio">
+                        <li class="navigation__list__item">Início</li>
+                    </a>
+                    <a href="#skills">
+                        <li class="navigation__list__item">Skills</li>
+                    </a>
+                    <a href="#formacao">
+                        <li class="navigation__list__item">Formação</li>
+                    </a>
+                    <a href="#experiencias">
+                        <li class="navigation__list__item">Experiências</li>
+                    </a>
+                    <a href="#sobre">
+                        <li class="navigation__list__item">Sobre Mim</li>
+                    </a>
+                    <a href="#contato">
+                        <li class="navigation__list__item">Contato</li>
+                    </a>
+                </ul>
+            </div>
 
-			<!-- icone configuracao
-            <img class="icon-svg conf-svg" src="assets/config-icon.svg">
-             -->
-			
+
 		</nav>
 
 	</header>
 
-    <main class="principal-container" id="principal">
+
+
+    <main class="cont-main" id="main">
         
         <!-- PRINCIPAL -->
         <section class="secao-container" id="inicio">
@@ -104,8 +119,8 @@
 
             <div class="inicio__texto">
                 <h1 id="inicio__texto__titulo">Abner Andrade</h1>
-                <h2 id="inicio__texto__subtitulo">Desenvolvedor Front End</h2>
-                <p id="inicio__texto__descricao"><strong>Carioca, 28 anos, cheio de entusiasmo e apaixonado por tecnologia.</strong><br>Em transição de carreira, atualmente cursando Análise e Desenvolvimento de Sistemas. Meu foco é poder ajudar a melhorar a vida das pessoas, desenvolvendo páginas e aplicativos que sejam acessíveis e funcionais.</p>
+                <h2 id="inicio__texto__subtitulo">Desenvolvedor de Soluções</h2>
+                <p id="inicio__texto__descricao"><strong>Carioca, 28 anos, cheio de entusiasmo e apaixonado por tecnologia.</strong><br>Minha proposta é criar soluções funcionais, consistentes e elegantes.</p>
 
             </div> 
 
@@ -369,8 +384,10 @@
     </footer>
 
     <!-- SCRIPT -->
+    <script src="js/main.js"></script>
     <script src="js/core.js"></script>
     <script src="js/textoanimado.js"></script>
+    <script src="js/header.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,101 @@
+:root {
+    --brancoAbsoluto: #FFFFFF;
+    --brancoCintilante: #FEFEFE;
+    --brancoAmeno: #F8F8FF;
+    
+    --pretoAbsoluto: #000000;
+    --pretoCintilante: #010101;
+    --pretoAmeno: #1C1C1C;
+
+
+    --vermelhoCintilante: #ED145B;
+    --vermelhoAmeno: #AB2232;
+
+    --azulCintilante: #25B3F5;
+    --azulAmeno: #197AA8;
+
+    --amareloCintilante: #F5BD0C;
+    --amareloAmeno: #A88411;
+    --amareloAmenoTransparente: #A88411AA;
+
+
+    font-family: 'ag-regular', sans-serif;
+    font-size: 20px;
+    scroll-behavior: smooth;
+
+}
+
+::webkit-scrollbar {
+    width: 0px;
+}
+
+@font-face {
+    font-family: 'ag light';
+    src: url('/assets/fonts/akzidenz-grotesk-light.ttf');
+}
+
+@font-face {
+    font-family: 'ag regular';
+    src: url('/assets/fonts/akzidenz-grotesk-regular.ttf');
+}
+
+@font-face {
+    font-family: 'ag bold';
+    src: url('/assets/fonts/akzidenz-grotesk-bold.ttf');
+}
+
+@font-face {
+    font-family: 'ag black';
+    src: url('/assets/fonts/akzidenz-grotesk-black.ttf');
+}
+
+@font-face {
+    font-family: 'zefani';
+    src: url('/assets/fonts/zefani-regular.otf');
+}
+
+.all {
+    align-items: center;
+    background-color: var(--pretoAmeno);
+    color: var(--brancoAbsoluto);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    max-width: 100vw;
+    margin-top: 4rem;
+}
+
+.addBlur {
+    filter: blur(20px);
+    z-index: 0;
+}
+
+.secao-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    padding: 1rem 0.1rem;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 0.5rem;
+    text-transform: uppercase;
+}
+
+.botoes {
+    background-color: var(--vermelhoAbsoluto);
+    border: none;
+    color: var(--brancoAbsoluto);
+    font-size: 0.6rem;
+    font-weight: bolder;
+    height: 50px;
+    margin: 0.25rem;
+    width: 50%;
+}
