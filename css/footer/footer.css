@@ -1,0 +1,32 @@
+.cont-footer {
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+}
+
+.cont-footer__scroll {
+    background-color: var(--vermelhoAmeno);
+    padding: .5rem 0;
+    width: 100%;
+}
+
+.cont-footer__scroll__seta {
+    display: flex;
+    justify-content: center;
+}
+
+.cont-footer__scroll img {
+    max-height: 40%;
+    margin: 0.25rem 0;
+}
+
+.cont-footer__scroll p {
+    color: var(--brancoAbsoluto);
+    font-size: 0.6rem;
+}
+
+.cont-footer__credits {
+    background-color: var(--vermelhoCintilante);
+    font-size: 0.6rem;
+    padding: 0.5rem;
+}

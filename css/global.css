@@ -45,14 +45,32 @@
 }
 
 @font-face {
-    font-family: 'ag black';
-    src: url('/assets/fonts/akzidenz-grotesk-black.ttf');
+    font-family: 'sanssonder';
+    src: url('/assets/fonts/sanssonder-bold.otf');
+}
+
+@font-face {
+    font-family: 'sanssonder rough';
+    src: url('/assets/fonts/sanssonder-boldrough.otf');
+}
+
+@font-face {
+    font-family: 'slabsonder';
+    src: url('/assets/fonts/slabsonder-bold.otf');
+}
+
+@font-face {
+    font-family: 'slabsonder rough';
+    src: url('/assets/fonts/slabssonder-boldrough.otf');
 }
 
 @font-face {
     font-family: 'zefani';
     src: url('/assets/fonts/zefani-regular.otf');
 }
+
+
+
 
 .all {
     align-items: center;
@@ -61,7 +79,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     max-width: 100vw;
     margin-top: 4rem;
 }
@@ -71,25 +89,29 @@
     z-index: 0;
 }
 
+.cont-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 1rem 0.1rem;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+
 .secao-container {
     align-items: center;
     display: flex;
     flex-direction: column;
-    max-width: 100vw;
+    max-width: 100%;
     padding: 1rem 0.1rem;
     flex-wrap: wrap;
 }
 
-h2 {
-    font-weight: 800;
-}
 
-h3 {
-    font-size: 0.5rem;
-    text-transform: uppercase;
-}
 
-.botoes {
+.allButtons {
     background-color: var(--vermelhoAbsoluto);
     border: none;
     color: var(--brancoAbsoluto);

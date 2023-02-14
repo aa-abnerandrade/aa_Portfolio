@@ -21,8 +21,17 @@
     <link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/global.css">
 
-    <link rel="stylesheet" href="css/cabecalho/cabecalho.css">
-    <link rel="stylesheet" href="css/cabecalho/cabecalho-menu.css">
+    <link rel="stylesheet" href="css/header/header.css">
+    <link rel="stylesheet" href="css/header/menu-more.css">
+    <link rel="stylesheet" href="css/header/menu-navigation.css">
+    
+    <link rel="stylesheet" href="css/main/main.css">
+    <link rel="stylesheet" href="css/main/video.css">
+    <link rel="stylesheet" href="css/main/projects.css">
+
+    <link rel="stylesheet" href="css/footer/footer.css">
+    
+    <!-- EXCLUIR -->
     <link rel="stylesheet" href="css/inicio/inicio.css">
     <link rel="stylesheet" href="css/inicio/inicio-foto.css">
     <link rel="stylesheet" href="css/inicio/inicio-video.css">
@@ -54,40 +63,35 @@
 
 <body class="all">
 
-
+    <!-- HEADER -->
 	<header class="cont-header" id="header">
 
 		<!-- MENU ----------->
 		<nav class="cont-header__menu">	
 
-            <!-- ICONE-->
+            <!-- MENU ICONE-->
             <div class="menu__more">
+                <h1 class="menu__more__title">
+                    Abner Andrade
+                </h1>
+                
                 <button class="menu__more__icon" id="icon__button" type="button">
                     <i class="uil uil-border-inner" id="icon__text"></i>
                 </button>
             </div>
 
 
-			<!-- LISTA MENU -->
+			<!-- MENU LISTA -->
 			<div class="menu__navigation--hidden">
                 <ul class="navigation__list">
-                    <a href="#inicio">
-                        <li class="navigation__list__item">Início</li>
+                    <a href="aboutAbnerAndrade.html">
+                        <li class="navigation__list__item">SOBRE</li>
                     </a>
                     <a href="#skills">
-                        <li class="navigation__list__item">Skills</li>
+                        <li class="navigation__list__item">CONTATO</li>
                     </a>
                     <a href="#formacao">
-                        <li class="navigation__list__item">Formação</li>
-                    </a>
-                    <a href="#experiencias">
-                        <li class="navigation__list__item">Experiências</li>
-                    </a>
-                    <a href="#sobre">
-                        <li class="navigation__list__item">Sobre Mim</li>
-                    </a>
-                    <a href="#contato">
-                        <li class="navigation__list__item">Contato</li>
+                        <li class="navigation__list__item">ADD</li>
                     </a>
                 </ul>
             </div>
@@ -99,292 +103,116 @@
 
 
 
+    <!-- MAIN -->
     <main class="cont-main" id="main">
         
-        <!-- PRINCIPAL -->
-        <section class="secao-container" id="inicio">
+
+        <div class="cont-main__background-video">
+            <video muted="" loop="" autoplay="" class="inicio__video__item" data-video="0">
+                <source src="assets/videos/background-intro-inicio-mobile.webm">
+            </video>
+        </div>
+
+
+        <!-- PROJETOS -->
+        <section class="cont-section main__projects" id="projects">
+            <h2>Projetos</h2>
             
-            <div class="inicio__perfil">
-                <div class="inicio__perfil__foto">
-                    <img id="inicio__perfil__foto__imagem" src="assets/imagens/perfil/avatar-ola.jpeg">
-                </div>
-            </div>
             
-            <div class="inicio__video">
-                <video muted="" loop="" autoplay="" class="inicio__video__item" data-video="0">
-                    <source src="assets/videos/background-intro-inicio-mobile.webm">
-                </video>
-            </div>
-            
-
-            <div class="inicio__texto">
-                <h1 id="inicio__texto__titulo">Abner Andrade</h1>
-                <h2 id="inicio__texto__subtitulo">Desenvolvedor de Soluções</h2>
-                <p id="inicio__texto__descricao"><strong>Carioca, 28 anos, cheio de entusiasmo e apaixonado por tecnologia.</strong><br>Minha proposta é criar soluções funcionais, consistentes e elegantes.</p>
-
-            </div> 
-
-            <div class="inicio__links">
-                
-                <ul class="inicio__links__lista">
-                    <li class="inicio__links__lista__item"><a href="https://github.com/aa-abnerandrade" >GitHub <img src="assets/svgs/setas/seta-link.svg" alt="Link para Github de Abner Andrade"></a></li>
-
-                    <li class="inicio__links__lista__item"><a href="https://www.linkedin.com/in/abnerandrade/">LinkedIn <img src="assets/svgs/setas/seta-link.svg" alt="Link para LinkedIn de Abner Andrade"></a></li>
-
-                    <li class="inicio__links__lista__item"><a href="https://api.whatsapp.com/send?phone=5521973257039&text=Ol%C3%A1%2C%20Abner!%20Vi%20teu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20com%20voc%C3%AA.%20">WhatsApp <img src="assets/svgs/setas/seta-link.svg" alt="Link para WhatsApp de Abner Andrade"></a></li>
-                </ul>
-                
-            </div>
-
-            <div class="inicio__scroll">
-                <p id="inicio__scroll__texto">Sinta-se à vontade</p>
-                <a id="inicio__Scroll__seta" href="#skills"><img src="assets/svgs/setas/seta-down.svg" alt="Seta Para Scrollar Página"></a>
-            </div>
-
-        </section>
-
-        <!-- SKILLS -->
-        <section class="secao-container" id="skills">
-            <h2>Skills</h2>
-            
-            <div class="skills__cards">
-                <div id="div-container__skills__cards">
-                    <div class="skills__cards__item">
-                        <img src="assets/svgs/linguagens/html-color.svg" alt="">
-                        <h3>HTML</h3>
-                    </div>
-                    <div class="skills__cards__item">
-                        <img src="assets/svgs/linguagens/css-color.svg" alt="">
-                        <h3>CSS</h3>
-                    </div>
-                    <div class="skills__cards__item">
-                        <img src="assets/svgs/linguagens/javascript-color.svg" alt="">
-                        <h3>JavaScript</h3>
-                    </div>
-                    <div class="skills__cards__item">
-                        <img src="assets/svgs/linguagens/git-color.svg" alt="">
-                        <h3>Git</h3>
-                    </div>
-                    
-                    <div class="skills__cards__item">
-                        <img src="assets/svgs/linguagens/python-color.svg" alt="">
-                        <h3>Pyhton</h3>
-                    </div>
-                    <div class="skills__cards__item">
-                        <img src="assets/svgs/linguagens/java-color.svg" alt="">
-                        <h3>Java</h3>
-                    </div>
-                </div>
-            </div>
-            
-        </section>
-
-        <!-- FORMAÇÃO -->
-        <section class="secao-container" id="formacao">
-            <h2>Formação</h2>
-            
-            <section class="formacao__secao">
-
-                <ul class="formacao__secao__lista">
-                    <li>
-                        <div class="formacao__secao__lista__card">
-                            <img src="assets/imagens/formacao/pucpr.png" alt="Logo da Puc Paraná" class="formacao__secao__lista__card__imagem">
-                            <h3>Análise e Desenvolvimento de Sistemas</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="formacao__secao__lista__card">
-                            <img src="assets/imagens/formacao/descomplica.png" alt="Logo da Faculdade Descomplica" class="formacao__secao__lista__card__imagem">
-                            <h3>Análise de Dados</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="formacao__secao__lista__card">
-                            <img src="assets/imagens/formacao/ufrrj.png" alt="Logo da Universidade Federal Rural do Rio de Janeiro" class="formacao__secao__lista__card__imagem">
-                            <h3>Administração</h3>
-                        </div>
-                    </li>
-                </ul>
-
-            </section>
-            
-            <section class="formacao__secao">
-                <ul class="formacao__secao__lista">
-                    <li>
-                        <div class="formacao__secao__lista__card">
-                            <img src="assets/imagens/formacao/oraclenexteducation.png" alt="Arte do Programa Oracle Next Education" class="formacao__secao__lista__card__imagem">
-                            <h3>Desenvolvimento Web e Programação</h3>
-                        </div>
-                    </li>                    
-                    <li>
-                        <div class="formacao__secao__lista__card">
-                            <img src="assets/imagens/formacao/pridedevsharerh.png" alt="Arte do Programa Pride Dev da Share RH" class="formacao__secao__lista__card__imagem">
-                            <h3>Java</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="formacao__secao__lista__card">
-                            <img src="assets/imagens/formacao/alura.png" alt="Logo da Alura" class="formacao__secao__lista__card__imagem">
-                            <h3>HTML e CSS</h3>
-                        </div>
-                    </li>
-                </ul>
-            </section>
-            
-        </section>
-
-        <!-- EXPERIÊNCIAS -->
-        <section class="secao-container" id="experiencias">
-            <h2>Experiências</h2>
-
-            <section class="experiencias__secao">
-                <div id="experiencias__projetos">
-                    <h3>Projetos</h3>
-                    <div class="experiencias__projetos__card">
-                        <img class="experiencias__projetos__card__imagem" src="assets/imagens/projetos/jogo-forca.png" alt="Print da tela inicial do Jogo da Forca">
-                        <h4>Jogo da Forca</h4>
-                        <div class="div-botoes__projetos">
-                            <button class="botoes botoes__repositorio">Repositório</button>
-                            <button class="botoes botoes__page">Ver Page</button>
-                        </div>
-                    </div>
-                    <div class="experiencias__projetos__card">
-                        <img class="experiencias__projetos__card__imagem" src="assets/imagens/projetos/tradutor-criptografia.png" alt="Print da tela inicial do Tradutor de Criptografia">
-                        <h4>Tradutor de Criptografia</h4>
-                        <div class="div-botoes__projetos">
-                            <button class="botoes botoes__repositorio">Repositório</button>
-                            <button class="botoes botoes__page">Ver Page</button>
-                        </div>
-                    </div>
-                    <div class="experiencias__projetos__card">
-                        <img class="experiencias__projetos__card__imagem" src="assets/imagens/projetos/loja-virtual.png" alt="Print da tela inicial da Loja Virtual">
-                        <h4>Loja Virtual</h4>
-                        <div class="div-botoes__projetos">
-                            <button class="botoes botoes__repositorio">Repositório</button>
-                            <button class="botoes botoes__page">Ver Page</button>
-                        </div>
-                    </div>
+            <section class="projects__card--acordeon">
+                <button class="card__trigger" type="button">
+                    <h3 class="trigger__title">Nazareth</h3>
+                </button>
+                <div class="card__content">
+                    <img class="" src="assets/imagens/projetos/jogo-forca.png" alt="Imagem da Aplicação Nazareth">
+                    <button class="allButtons card__button--repo">Repositório</button>
+                    <button class="allButtons card__button--page">Ver Page</button>
                 </div>
             </section>
-            
-            <section class="experiencias__secao">
-                <div id="experiencias__agregadoras">
-                    <h3>Experiências Agregadoras</h4>
-                    
-                        <dl class="experiencias__agregadoras__lista">
-                        
-                        <dt>Comprador</dt>
-                        <dd>Comecei em 2016 e atuei por 7 anos na área de Compras & Procurement, área que me deu oportunidade de aplicar skills como capacidade analítica, gerenciamento de processos, análise de indicadores, gestão de equipe e liderança. E também, foi onde tive o primeiro contato com manipulação e análise de dados e linguagens de programação, o que me levou a me dedicar exclusivamente aos estudos de Programação e Tecnologia, em busca da primeira oportunidade como pessoa Desenvolvedora.</dd>
-                        
-                        <dt>Técnico-Acadêmico</dt>
-                        <dd>Entre 2015 e 2020, durante a 1ª graduação (Administração/UFRRJ), fui selecionado em 4 processos para vaga de Técnico-Acadêmico. Esses cenários me possibilitaram aplicar conceitos acadêmicos em contextos corporativos. Dentre eles, destaco: mapeamento de processos, planejamento estratético, modelos estatísticos e planejamento orçamentário e financeiro.</dd>
 
-                        <dt>Presidente do DAAD</dt>
-                        <dd>Presidi o Diretório Acadêmico de Administração da UFRRJ em 2016. Atualmente, ainda guardo com carinho o marco de eleição discente com maior número de votantes de toda a história da Universidade. O modelo de negócio desenvolvido e implantado teve reconhecimento em outras Universidades no RJ e abriu portas para atuar em Diretórios e Empresas Juniores em instituições como UFRJ, UEZO, UFF, UERJ e ESPM. Pouco tempo depois, o modelo e parceria geraram a maior Associação Livre de Discentes do Brasil.</dd>
-                        
-                    </dl>
+            <section class="projects__card--acordeon">
+                <button class="card__trigger" type="button">
+                    <h3 class="trigger__title">Tic-Tac-Toe</h3>
+                </button>
+                <div class="card__content">
+                    <img class="" src="assets/imagens/projetos/jogo-forca.png" alt="Imagem da Aplicação Nazareth">
+                    <button class="allButtons card__button--repo">Repositório</button>
+                    <button class="allButtons card__button--page">Ver Page</button>
                 </div>
             </section>
-        </section>
 
-        <!-- SOBRE MIM -->
-        <section class="secao-container" id="sobre">
-            <h2>Sobre Mim</h2>
+            <section class="projects__card--acordeon">
+                <button class="card__trigger" type="button">
+                    <h3 class="trigger__title">Pokedex</h3>
+                </button>
+                <div class="card__content">
+                    <img class="" src="assets/imagens/projetos/jogo-forca.png" alt="Imagem da Aplicação Nazareth">
+                    <button class="allButtons card__button--repo">Repositório</button>
+                    <button class="allButtons card__button--page">Ver Page</button>
+                </div>
+            </section>
+
+            <section class="projects__card--acordeon">
+                <button class="card__trigger" type="button">
+                    <h3 class="trigger__title">Borrow Me</h3>
+                </button>
+                <div class="card__content">
+                    <img class="" src="assets/imagens/projetos/jogo-forca.png" alt="Imagem da Aplicação Nazareth">
+                    <button class="allButtons card__button--repo">Repositório</button>
+                    <button class="allButtons card__button--page">Ver Page</button>
+                </div>
+            </section>
+
+            <section class="projects__card--acordeon">
+                <button class="card__trigger" type="button">
+                    <h3 class="trigger__title">Zombie Dice</h3>
+                </button>
+                <div class="card__content">
+                    <img class="" src="assets/imagens/projetos/jogo-forca.png" alt="Imagem da Aplicação Nazareth">
+                    <button class="allButtons card__button--repo">Repositório</button>
+                    <button class="allButtons card__button--page">Ver Page</button>
+                </div>
+            </section>
+
+            <section class="projects__card--acordeon">
+                <button class="card__trigger" type="button">
+                    <h3 class="trigger__title">Personal Page</h3>
+                </button>
+                <div class="card__content">
+                    <img class="" src="assets/imagens/projetos/jogo-forca.png" alt="Imagem da Aplicação Nazareth">
+                    <button class="allButtons card__button--repo">Repositório</button>
+                    <button class="allButtons card__button--page">Ver Page</button>
+                </div>
+            </section>
+
+
+           
             
-            <div class="sobre__carrossel">
-                
-            </div>
-
-            <div class="sobre__textoanimado">
-                <pre class="sobre__textoanimado_conteudo"></pre>
-            </div>
-
-        </section>
-
-        <!-- CONTATO-->
-        <section class="secao-container" id="contato">
-            <h2>Contato</h2>
-            
-            <div class="div-contato" id="contato__links-container">
-                <h3>Me encontre em</h3>
-                
-                <ul class="contato__links__lista">
-                    
-                    <li class="contato__links__lista__item">
-                        <a href="#"><img class="contato__links__lista__item__imagem" src="assets/svgs/redes/linkedin.svg" alt="Ícone do LinkedIn"></img></a>
-                    </li>
-
-                    <li class="contato__links__lista__item">
-                        <a href="#"><img class="contato__links__lista__item__imagem" src="assets/svgs/redes/github.svg" alt="Ícone do GitHub"></img></a>
-                    </li>
-
-                    <li class="contato__links__lista__item">
-                        <a href="#"><img class="contato__links__lista__item__imagem" src="assets/svgs/redes/whatsapp.svg" alt="Ícone do WhatsApp"></img></a>
-                    </li>
-
-                </ul>
-            </div>
-
-            <div class="div-contato" id="contato__infos-container">
-                <h3>E-mail</h3>
-                <p>aa.AbnerAndrade@outlook.com.br</p>
-                
-            </div>
-
-            <div class="div-contato" id="contato__curriculo-container">
-                <h3>Meu CV</h3>
-                <br>
-                <a id="contato__curriculo__donwload" target="_blank" download="CV_AbnerAndrade_DesenvolvedorFrontEnd" href="assets/docs/cv_abnerandrade_portfolio.pdf">Abrir currículo em PDF <img src="assets/svgs/setas/seta-link.svg" alt="Link para Github de Abner Andrade"></a>
-
-            </div>
-
-            <!--
-            <div id="contatosformulario-container">
-                <h3>Envie uma Mensagem</h3>
-                <form action="./cadastro_concluido.html" id="formulario">
-                    <fieldset>
-                        <legend id="formulario__legenda">Te respondo já!</legend>
-                        
-                        <div class="div-formulario__campo">
-                            <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-tipo="nome" required>
-                            <label class="input-label" for="nome">Nome</label>
-                            <span class="input-mensagem-erro">Este campo não está válido</span>
-                        </div>
-                        <div class="div-formulario__campo">
-                            <input name="email" id="email" class="input" type="email" placeholder="Email" data-tipo="email" required>
-                            <label class="input-label" for="email">Email</label>
-                            <span class="input-mensagem-erro">Este campo não está válido</span>
-                        </div>
-                        <div class="formulario__campo" id="campo-mensagem">
-                            <label for="message">Mensagem</label>
-                            <textarea class="input input-texto" rows="8" cols="8" type="text" name="mensagem" id="mesagem"
-                            spellcheck="false"></textarea>
-                        </div>   
-                    </fieldset>
-                    <button class="botoes" type="submit">Enviar Mensagem</a>
-                </form>
-            </div>
-            -->
-
 
         </section>
 
 
     </main>
 	
-	<footer class="rodape-container" id="rodape">
-        <div class="rodape__scroll">
-            <a id="rodape__scroll__seta" href="#inicio"><img src="assets/svgs/setas/seta-top.svg" alt="Seta Para Voltar à Seção Início"></a>
+
+
+    <!-- FOOTER -->
+	<footer class="cont-footer" id="footer">
+        <div class="cont-footer__scroll">
+            <a class="cont-footer__scroll__seta" href="#inicio"><img src="assets/svgs/setas/seta-top.svg" alt="Seta Para Voltar à Seção Início"></a>
             <p>Voltar ao Topo</p>
         </div>
-        <div class="rodape__creditos">
+        <div class="cont-footer__credits">
             <h2>Desenvolvido por Abner Andrade</h2>
-            <p>2022</p>
+            <p>2023</p>
         </div>
     </footer>
 
+
+    
     <!-- SCRIPT -->
     <script src="js/main.js"></script>
+    <script src="js/projects.js"></script>
     <script src="js/core.js"></script>
     <script src="js/textoanimado.js"></script>
     <script src="js/header.js"></script>

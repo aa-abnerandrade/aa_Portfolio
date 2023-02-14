@@ -1,0 +1,9 @@
+.cont-main__background-video {
+    display: flex;
+    max-width: 100%;
+    opacity: .5;
+    overflow: hidden;
+    position: absolute;
+    top: 1;
+    z-index: -1;
+}

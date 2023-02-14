@@ -1,0 +1,23 @@
+.menu__more {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--pretoAmeno);
+}
+
+    .menu__more__title {
+        font-family: 'zefani';
+        width: 70%;
+        margin: 1rem auto;
+    }
+
+    .menu__more__icon {
+        background-color: transparent;
+        border: none;
+        color: var(--brancoCintilante);
+        font-size: 1.25rem;
+        width: 20%;
+        margin: 1rem auto;
+        text-align: right;
+
+    }

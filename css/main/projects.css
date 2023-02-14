@@ -1,0 +1,70 @@
+.main__projects {
+    min-height: 736px;
+    justify-content: flex-end;
+}
+
+.main__projects h2 {
+    opacity: 0;
+}
+
+.trigger__title {
+    text-transform: uppercase;
+}
+
+.projects__card--acordeon {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0.5rem 0;
+    border-radius: 1rem;
+    transition: .25s;
+}
+
+.trigger__title {
+    font-family: 'slabsonder rough';
+}
+
+.showAcordeon {
+
+}
+
+.projects__card--acordeon:hover {
+    background-color: var(--vermelhoAmeno);
+    border-color: var(--amareloCintilante);
+}
+
+.card__trigger {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 0.75rem 1rem;
+    background-color: transparent;
+    color: var(--brancoAmeno);
+    border: none;
+}
+
+.projects__card--acordeon .card__content {
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+}
+
+.showAcordeon .card__content {
+    display: block;
+    padding: 0 1rem 1rem 2rem;
+    height: auto;
+    opacity: 1;
+}
+
+.card__button--repo {
+
+}
+
+.card__button--page {
+
+}
+
+
