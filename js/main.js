@@ -1,3 +1,9 @@
+(async ()=> {
+    console.log("Chamou");
+    const jProfileData = await fetchProfileData()
+    console.log(jProfileData);
+})()
+
 
 const allMainPage = document.querySelector('.cont-main');
 const acordeonTriggers = document.querySelectorAll('.card__trigger');
@@ -15,3 +21,9 @@ acordeonTriggers.forEach((trigger)=> {
 
     })
 })
+
+
+
+
+
+
