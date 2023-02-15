@@ -5,16 +5,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Abner Andrade</title>
-	
-
-    <!-- FONTES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 
 
 	<!-- CSS -->
@@ -24,6 +14,7 @@
     <link rel="stylesheet" href="css/header/header.css">
     <link rel="stylesheet" href="css/header/menu-more.css">
     <link rel="stylesheet" href="css/header/menu-navigation.css">
+    <link rel="stylesheet" href="css/header/menu-navigation-contact.css">
     
     <link rel="stylesheet" href="css/main/main.css">
     <link rel="stylesheet" href="css/main/video.css">
@@ -31,29 +22,6 @@
 
     <link rel="stylesheet" href="css/footer/footer.css">
     
-    <!-- EXCLUIR -->
-    <link rel="stylesheet" href="css/inicio/inicio.css">
-    <link rel="stylesheet" href="css/inicio/inicio-foto.css">
-    <link rel="stylesheet" href="css/inicio/inicio-video.css">
-    <link rel="stylesheet" href="css/inicio/inicio-texto.css">
-    <link rel="stylesheet" href="css/inicio/inicio-link.css">
-    <link rel="stylesheet" href="css/inicio/inicio-scroll.css">
-    <link rel="stylesheet" href="css/skills/skills.css">
-    <link rel="stylesheet" href="css/skills/skills-cards.css">
-    <link rel="stylesheet" href="css/skills/skill-card.css">
-    <link rel="stylesheet" href="css/formacao/formacao.css">
-    <link rel="stylesheet" href="css/formacao/formacao-lista.css">
-    <link rel="stylesheet" href="css/formacao/formacao-card.css">
-    <link rel="stylesheet" href="css/experiencias/experiencias.css">
-    <link rel="stylesheet" href="css/experiencias/experiencias-projetos.css">
-    <link rel="stylesheet" href="css/experiencias/experiencias-agregadoras.css">
-    <link rel="stylesheet" href="css/sobremim/sobremim.css">
-    <link rel="stylesheet" href="css/sobremim/sobre-carrossel.css">
-    <link rel="stylesheet" href="css/sobremim/sobre-texto.css">
-    <link rel="stylesheet" href="css/contato/contato.css">
-    <link rel="stylesheet" href="css/contato/contato-links.css">
-    <link rel="stylesheet" href="css/contato/contato-curriculo.css">
-    <link rel="stylesheet" href="css/rodape/rodape.css">
 
     <!-- ICONS -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
@@ -84,15 +52,27 @@
 			<!-- MENU LISTA -->
 			<div class="menu__navigation--hidden">
                 <ul class="navigation__list">
-                    <a href="aboutAbnerAndrade.html">
-                        <li class="navigation__list__item">SOBRE</li>
-                    </a>
-                    <a href="#skills">
-                        <li class="navigation__list__item">CONTATO</li>
-                    </a>
-                    <a href="#formacao">
-                        <li class="navigation__list__item">ADD</li>
-                    </a>
+                    
+                    <li class="navigation__list__item">
+                        <a href="aboutAbnerAndrade.html">SOBRE</a>
+                    </li>
+                    
+                    <li class="navigation__list__item">
+                        <div class="inicio__links">
+     
+                            <ul class="inicio__links__lista">
+                                <li class="inicio__links__lista__item"><a href="https://github.com/aa-abnerandrade" >GitHub <img src="assets/svgs/setas/seta-link.svg" alt="Link para Github de Abner Andrade"></a></li>
+                                <li class="inicio__links__lista__item"><a href="https://www.linkedin.com/in/abnerandrade/">LinkedIn <img src="assets/svgs/setas/seta-link.svg" alt="Link para LinkedIn de Abner Andrade"></a></li>
+                                <li class="inicio__links__lista__item"><a href="https://api.whatsapp.com/send?phone=5521973257039&text=Ol%C3%A1%2C%20Abner!%20Vi%20teu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20com%20voc%C3%AA.%20">WhatsApp <img src="assets/svgs/setas/seta-link.svg" alt="Link para WhatsApp de Abner Andrade"></a></li>
+                            </ul>
+                     
+                        </div>
+                    </li>
+
+                    <li class="navigation__list__item">
+                        ADD
+                    </li>
+                    
                 </ul>
             </div>
 
@@ -212,7 +192,6 @@
     
     <!-- SCRIPT -->
     <script src="js/api.js"></script>
-    <script src="js/projects.js"></script>
     <script src="js/core.js"></script>
     <script src="js/textoanimado.js"></script>
     <script src="js/header.js"></script>
