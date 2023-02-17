@@ -6,7 +6,8 @@
     height: 85vh;
     width: 95%;
     margin: 1rem auto;
-    background-color: var(--amareloAmenoTransparente);
+    background-color: var(--vermelhoAmenoTransparente);
+    
 }
 
 
@@ -26,17 +27,26 @@
 
     .navigation__list--title {
         font-family: 'slabsonder';
-        color: var(--amareloCintilante);
+        color: var(--vermelhoCintilante);
         font-size: 2rem;
         margin: 1rem auto;
         text-align: center;
     }
 
     .navigation__list--content {
-        font-family: 'ag black';
-        color: var(--pretoAmeno);
-        font-size: 1rem;
+        font-family: 'ag bold';
+        color: var(--pretoCintilante);
+        font-size: 0.8rem;
         margin: 1rem auto;
-        text-align: justify;
+        text-align: center;
         text-transform: none;
+    }
+
+    #navigation--go-to-AbnerAndrade {
+        margin: 1rem auto;
+        text-transform: uppercase;
+        font-family: 'ag black';
+        text-align: center;
+        font-size: 1rem;
+        color: var(--vermelhoCintilante);
     }

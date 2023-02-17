@@ -6,13 +6,13 @@
     --pretoAbsoluto: #000000;
     --pretoCintilante: #010101;
     --pretoAmeno: #1C1C1C;
+    --pretoAmenoTransparente: #1C1C1CAA;
 
 
     --vermelhoCintilante: #ED145B;
     --vermelhoAmeno: #AB2232;
+    --vermelhoAmenoTransparente: #AB2232AA;
 
-    --azulCintilante: #25B3F5;
-    --azulAmeno: #197AA8;
 
     --amareloCintilante: #F5BD0C;
     --amareloAmeno: #A88411;
@@ -104,17 +104,6 @@
     flex-wrap: wrap;
     box-sizing: border-box;
 }
-
-
-.secao-container {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    padding: 1rem 0.1rem;
-    flex-wrap: wrap;
-}
-
 
 
 .allButtons {

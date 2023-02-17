@@ -1,30 +1,31 @@
-.cont-header { 
+.sec-overview { 
     padding: 0 0.1rem;
     position: relative;
 }
 
-.cont-header__photo {
+.sec-overview__photo {
     background-color: transparent;
     width: 40%;
+    margin: 1rem auto;
 }
 
-    .cont-header__photo--div {
+    .sec-overview__photo--div {
         max-width: 230px;
         position: relative;
     }
 
-    .cont-header__photo--div::before {
-        animation: spin 3s linear infinite;
+    .sec-overview__photo--div::before {
+        animation: spin 5s linear infinite;
         border: 6px solid transparent;
-        border-top-color: var(--amareloCintilante);
-        border-bottom-color: var(--amareloCintilante);
+        border-top-color: var(--vermelhoAmenoTransparente);
+        border-bottom-color: var(--vermelhoAmeno);
         border-radius: 50%;
         content: "";
         inset: -10px;
         position: absolute;
     }
 
-    .cont-header__photo--img {
+    .sec-overview__photo--img {
         display: block;
         border-radius: 50%;
         margin-top: 1.2rem;
@@ -36,44 +37,44 @@
     }
 
 
-.cont-header__text {
+.sec-overview__text {
     height: 45%;
     padding: 0.5rem 0.5rem;
+    color: var(--vermelhoAmenoTransparente);
 }
     
-    #cont-header__text--title {
-        color: var(--amareloCintilante);
+    #sec-overview__text--title {
+        color: var(--brancoCintilante);
         text-transform: uppercase;
         font-family: 'slabsonder rough';
         font-size: 1.5rem;
         text-align: center;
     }
     
-    #cont-header__text--subtitle {
-        color: var(--vermelhoCintilante);
+    #sec-overview__text--subtitle {
+        color: var(--vermelhoAmeno);
         font-family: 'ag bold';
-        font-size: 0.9rem;
+        font-size: 1.25rem;
         text-align: center;
         transition-property: font-size;
-        transition-duration: 5s;
+        transition-duration: 3s;
         transition-delay: 1s;
     }
     
-    #cont-header__text--subtitle:hover {
+    #sec-overview__text--subtitle:hover {
         font-size: 1rem;
     }
     
     
-    #cont-header__text--resume {
-        font-family: 'ag regular';
-        font-size: 0.8rem;
+    #sec-overview__text--resume {
+        font-family: 'ag black';
+        font-size: 0.9rem;
         text-align: center;
         padding: 0.5rem 0;
     }
     
-    #cont-header__text--resume strong {
-        color: var(--vermelhoAbsoluto);
-        font-family: 'ag bold';
+    #sec-overview__text--resume strong {
+        font-size: 1rem;
   
     }
     
