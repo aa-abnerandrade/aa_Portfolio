@@ -14,14 +14,11 @@
     <link rel="stylesheet" href="css/aboutaa/about.css">
     <link rel="stylesheet" href="css/aboutaa/about-header.css">
     <link rel="stylesheet" href="css/aboutaa/about-overview.css">
+    <link rel="stylesheet" href="css/aboutaa/about-footer.css">
     
     
 
-    <link rel="stylesheet" href="/css/aboutaa/inicio/inicio-foto.css">
-    <link rel="stylesheet" href="/css/aboutaa/inicio/inicio-video.css">
-    <link rel="stylesheet" href="css/aboutaa/inicio/inicio-texto.css">
-    <link rel="stylesheet" href="css/aboutaa/inicio/inicio-link.css">
-    <link rel="stylesheet" href="css/aboutaa/inicio/inicio-scroll.css">
+    
     <link rel="stylesheet" href="css/aboutaa/skills/skills.css">
     <link rel="stylesheet" href="css/aboutaa/skills/skills-cards.css">
     <link rel="stylesheet" href="css/aboutaa/skills/skill-card.css">
@@ -52,7 +49,7 @@
 		<nav class="cont-header__menu">	                    
 
             <a class="menu__back--link" href="index.html">
-                <i class="menu__back--ico uil uil-left-arrow-from-left" id="icon__text"></i>
+                <i class="menu__back--ico uil uil-left-arrow-to-left" id="icon__text"></i>
                 <h1 class="menu__back--title">AA.</h1>
             </a>
 
@@ -61,46 +58,188 @@
 
 
 
+    <!-- HOME -->
     <section class="cont-section sec-overview">
 
-        <div class="sec-overview__photo">
-            <div class="sec-overview__photo--div">
-                <img class="sec-overview__photo--img" src="assets/imagens/perfil/avatar-ola.jpeg">
+        <div class="sec-overview__intro">
+            <div class="intro__photo">
+                <div class="intro__photo--div">
+                    <img class="intro__photo--img" src="assets/imagens/perfil/avatar-ola.jpeg">
+                </div>
+            </div>
+            
+
+            <div class="intro__text">
+                <h1 id="intro__text--title">Abner Andrade</h1>
+                <h2 id="intro__text--subtitle">Desenvolvedor de Soluções</h2>
+                <p id="intro__text--resume"><br><strong>Full Stack Developer que se propõe a desenvolver soluções funcionais, criativas e elegantes.</strong></p>
             </div>
         </div>
 
-        <div class="sec-overview__text">
-            <h1 id="sec-overview__text--title">Abner Andrade</h1>
-            <h2 id="sec-overview__text--subtitle">Desenvolvedor de Soluções</h2>
-            <p id="sec-overview__text--resume">Carioca, 28 anos, cheio de entusiasmo e apaixonado por tecnologia.<br><strong>Minha proposta é desenvolver soluções funcionais, criativas e elegantes.</strong></p>
+
+        <div class="sec-overview__social">
+
+            <ul class="sec-overview__social--list">
+                <li>
+                    <a href="https://github.com/aa-abnerandrade" >
+                        <i class="uil uil-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/abnerandrade/">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=5521973257039&text=Ol%C3%A1%2C%20Abner!%20Vi%20teu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20com%20voc%C3%AA.%20">
+                        <i class="uil uil-whatsapp-alt"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="sec-overview__scroll">
+            <p class="sec-overview__scroll--text">Sinta-se à vontade</p>
+            <a href="#resume">
+                <i class="uil uil-arrow-from-top"></i>
+            </a>
+        </div>
+
+        <div class="sec-overview__video">
+            <video muted="" loop="" autoplay="" class="inicio__video__item" data-video="0">
+                <source src="assets/videos/background-intro-inicio-mobile.webm">
+            </video>
         </div>
 
     </section>
 
 
-    <section class="cont-section" id="inicio">
-     
 
-     
-        
-     
-        
-        <div class="inicio__links">
-     
-            <ul class="inicio__links__lista">
-                <li class="inicio__links__lista__item"><a href="https://github.com/aa-abnerandrade" >GitHub <img src="assets/svgs/setas/seta-link.svg" alt="Link para Github de Abner Andrade"></a></li>
-                <li class="inicio__links__lista__item"><a href="https://www.linkedin.com/in/abnerandrade/">LinkedIn <img src="assets/svgs/setas/seta-link.svg" alt="Link para LinkedIn de Abner Andrade"></a></li>
-                <li class="inicio__links__lista__item"><a href="https://api.whatsapp.com/send?phone=5521973257039&text=Ol%C3%A1%2C%20Abner!%20Vi%20teu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20com%20voc%C3%AA.%20">WhatsApp <img src="assets/svgs/setas/seta-link.svg" alt="Link para WhatsApp de Abner Andrade"></a></li>
-            </ul>
-     
+    <!-- RESUMO -->
+    <section class="cont-section sec-resume" id="resume">
+        <p>Senta que lá vem história...</p>
+        <h2>Sobre</h2>
+
+
+
+
+        <div class="cont-section__scroll">
+            <p class="cont-section__scroll--text">Qualificações</p>
+            <a href="#faculties">
+                <i class="uil uil-arrow-from-top"></i>
+            </a>
         </div>
 
-        <div class="inicio__scroll">
-            <p id="inicio__scroll__texto">Sinta-se à vontade</p>
-            <a id="inicio__Scroll__seta" href="#skills"><img src="assets/svgs/setas/seta-down.svg" alt="Seta Para Scrollar Página"></a>
+    </section>
+
+
+
+    <!-- QUALIFICAÇÕES -->
+    <section class="cont-section sec-faculties" id="faculties">
+        <p>Meu arsenal</p>
+        <h2>Qualificações</h2>
+
+
+        <!-- Habilidades Técnicas -->
+        <section>
+            <h3>Tecnologias</h3>
+
+
+        </section>
+
+
+        <!-- Habilidades Pessoais -->
+        <section>
+            <h3>Soft Skills</h3>
+
+
+        </section>
+
+
+        <!-- Projetos -->
+        <section >
+            <h3>Projetos</h3>
+
+
+        </section>
+
+
+        <!-- Educação -->
+        <section>
+            <h3>Educação</h3>
+
+
+        </section>
+
+
+        <!-- Idiomas -->
+        <section>
+            <h3>Idiomas</h3>
+
+
+        </section>
+
+
+        <!-- Experiências -->
+        <section>
+            <h3>Experiências</h3>
+
+
+        </section>
+
+
+        <div class="cont-section__scroll">
+            <p class="cont-section__scroll--text">Serviços</p>
+            <a href="#services">
+                <i class="uil uil-arrow-from-top"></i>
+            </a>
         </div>
-     
-     </section>
+
+    </section>
+
+
+
+    <!-- SERVIÇOS -->
+    <section class="cont-section sec-services" id="services">
+        <p>Como posso te ajudar</p>
+        <h2>Serviços</h2>
+
+        
+
+    </section>
+
+
+
+    <!-- CONTATO -->
+    <section class="cont-section sec-contact" id="contact">
+        <p>Vamos lá!?</p>
+        <h2>Contato</h2>
+
+
+    </section>
+
+
+
+    <!-- RODAPÉ -->
+    <footer class="cont-footer" id="footer">
+        <div class="cont-footer__scroll">
+            <a class="cont-footer__scroll__seta" href="#intro__text--title">
+                <i class="uil uil-top-arrow-to-top"></i>
+            </a>
+            <p>Voltar ao Topo</p>
+        </div>
+        <div class="cont-footer__credits">
+            <h2>Desenvolvido por Abner Andrade</h2>
+            <p>2023</p>
+        </div>
+    </footer>
+
+
+
+
+
+    
      
      <!-- EXPERIÊNCIAS -->
      <section class="secao-container" id="experiencias">

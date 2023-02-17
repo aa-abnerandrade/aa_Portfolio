@@ -1,0 +1,33 @@
+.cont-footer {
+    font-family: 'ag regular';
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    color: var(--vermelhoAmenoTransparente);
+}
+
+.cont-footer__scroll {
+    
+    padding: .5rem 0;
+    width: 100%;
+}
+
+.cont-footer__scroll__seta {
+    display: flex;
+    justify-content: center;
+}
+
+.cont-footer__scroll img {
+    max-height: 50px;
+    margin: 0.25rem 0;
+}
+
+.cont-footer__scroll p {
+    
+    font-size: 0.6rem;
+}
+
+.cont-footer__credits {
+    font-size: 0.6rem;
+    padding: 0.5rem;
+}

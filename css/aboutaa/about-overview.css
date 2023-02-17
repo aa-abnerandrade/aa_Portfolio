@@ -1,80 +1,123 @@
 .sec-overview { 
-    padding: 0 0.1rem;
+    padding: 2rem 0.1rem;
     position: relative;
+    background-color: var(--vermelhoCintilanteTransparente);
+    height: 100vh;
+    justify-content: space-between;
 }
 
-.sec-overview__photo {
-    background-color: transparent;
-    width: 40%;
-    margin: 1rem auto;
+
+.sec-overview__intro {
+    padding-top: 1rem;
 }
 
-    .sec-overview__photo--div {
-        max-width: 230px;
-        position: relative;
+    .intro__photo {
+        width: 50%;
+        margin: 1rem auto;
     }
 
-    .sec-overview__photo--div::before {
-        animation: spin 5s linear infinite;
-        border: 6px solid transparent;
-        border-top-color: var(--vermelhoAmenoTransparente);
-        border-bottom-color: var(--vermelhoAmeno);
-        border-radius: 50%;
-        content: "";
-        inset: -10px;
-        position: absolute;
+        .intro__photo--div {
+            max-width: 230px;
+            position: relative;
+        }
+
+        .intro__photo--div::before {
+            animation: spin 9s linear infinite;
+            border: 6px solid transparent;
+            border-top-color: var(--brancoCintilante);
+            border-bottom-color: var(--brancoAmeno);
+            border-radius: 50%;
+            content: "";
+            inset: -10px;
+            position: absolute;
+        }
+
+        .intro__photo--img {
+            display: block;
+            border-radius: 50%;
+            margin-top: 1.2rem;
+            width: 100%;
+        }
+
+        @keyframes spin {
+            to{transform: rotate(360deg);}
+        }
+
+
+    .intro__text {
+        padding: 0.5rem 0.5rem;
+        color: var(--brancoAmeno);
     }
+        
+        #intro__text--title {
+            color: var(--brancoCintilante);
+            text-transform: uppercase;
+            font-family: 'slabsonder rough';
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        
+        #intro__text--subtitle {
+            color: var(--brancoAmeno);
+            font-family: 'ag bold';
+            font-size: 1.25rem;
+            text-align: center;
+            transition-property: font-size;
+            transition-duration: 3s;
+            transition-delay: 1s;
+        }
+        
+        #intro__text--subtitle:hover {
+            font-size: 1rem;
+        }
+        
+        
+        #intro__text--resume {
+            font-family: 'ag black';
+            font-size: 0.9rem;
+            text-align: center;
+            padding: 0.5rem 0;
+        }
+        
+        #intro__text--resume strong {
+            font-size: 1rem;
+    
+        }
 
-    .sec-overview__photo--img {
-        display: block;
-        border-radius: 50%;
-        margin-top: 1.2rem;
-        width: 100%;
-    }
-
-    @keyframes spin {
-        to{transform: rotate(360deg);}
-    }
-
-
-.sec-overview__text {
-    height: 45%;
-    padding: 0.5rem 0.5rem;
-    color: var(--vermelhoAmenoTransparente);
+        #intro__text--resume strong::before {
+            
+        }
+    
+.sec-overview__social {
+    width: 100%;
 }
-    
-    #sec-overview__text--title {
-        color: var(--brancoCintilante);
-        text-transform: uppercase;
-        font-family: 'slabsonder rough';
-        font-size: 1.5rem;
-        text-align: center;
+    .sec-overview__social--list {
+        display: flex;
+        justify-content: space-evenly;
+        color: var(--brancoAmeno);
+        font-size: 2rem;
     }
-    
-    #sec-overview__text--subtitle {
-        color: var(--vermelhoAmeno);
-        font-family: 'ag bold';
-        font-size: 1.25rem;
-        text-align: center;
-        transition-property: font-size;
-        transition-duration: 3s;
-        transition-delay: 1s;
+
+.sec-overview__scroll {
+    font-family: 'ag black';
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: var(--vermelhoCintilante);
+}
+
+    .sec-overview__scroll--text {
+        margin: 0.25rem auto;
     }
-    
-    #sec-overview__text--subtitle:hover {
-        font-size: 1rem;
-    }
-    
-    
-    #sec-overview__text--resume {
-        font-family: 'ag black';
-        font-size: 0.9rem;
-        text-align: center;
-        padding: 0.5rem 0;
-    }
-    
-    #sec-overview__text--resume strong {
-        font-size: 1rem;
-  
-    }
-    
+
+.sec-overview__video {
+    display: flex;
+    max-width: 100%;
+    opacity: .5;
+    overflow: hidden;
+    position: fixed;
+    top: 2rem;
+    z-index: -1;
+    height: 100vh;
+
+}

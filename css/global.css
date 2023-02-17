@@ -10,8 +10,10 @@
 
 
     --vermelhoCintilante: #ED145B;
+    --vermelhoCintilanteTransparente: #ED145BAA;
     --vermelhoAmeno: #AB2232;
     --vermelhoAmenoTransparente: #AB2232AA;
+
 
 
     --amareloCintilante: #F5BD0C;
@@ -79,6 +81,7 @@
 
 
 .all {
+    box-sizing: border-box;
     align-items: center;
     background-color: var(--pretoAmeno);
     color: var(--brancoAbsoluto);
