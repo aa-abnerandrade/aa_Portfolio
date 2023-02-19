@@ -14,17 +14,13 @@
     <link rel="stylesheet" href="css/aboutaa/about.css">
     <link rel="stylesheet" href="css/aboutaa/about-header.css">
     <link rel="stylesheet" href="css/aboutaa/about-overview.css">
+    <link rel="stylesheet" href="css/aboutaa/about-resume.css">
+    <link rel="stylesheet" href="css/aboutaa/about-faculties.css">
+    <link rel="stylesheet" href="css/aboutaa/about-contact.css">
     <link rel="stylesheet" href="css/aboutaa/about-footer.css">
     
     
 
-    
-    <link rel="stylesheet" href="css/aboutaa/skills/skills.css">
-    <link rel="stylesheet" href="css/aboutaa/skills/skills-cards.css">
-    <link rel="stylesheet" href="css/aboutaa/skills/skill-card.css">
-    <link rel="stylesheet" href="css/aboutaa/formacao/formacao.css">
-    <link rel="stylesheet" href="css/aboutaa/formacao/formacao-lista.css">
-    <link rel="stylesheet" href="css/aboutaa/formacao/formacao-card.css">
     <link rel="stylesheet" href="css/aboutaa/experiencias/experiencias.css">
     <link rel="stylesheet" href="css/aboutaa/experiencias/experiencias-projetos.css">
     <link rel="stylesheet" href="css/aboutaa/experiencias/experiencias-agregadoras.css">
@@ -118,15 +114,27 @@
 
     <!-- RESUMO -->
     <section class="cont-section sec-resume" id="resume">
-        <p>Senta que lá vem história...</p>
-        <h2>Sobre</h2>
+        <div class="cont-section__title">
+            <p>Senta que lá vem história...</p>
+            <h2>Sobre</h2>
+        </div>
 
+        <div class="cont-section__content">
+            <p><strong>Eu acredito que trabalhar com o que se ama é a chave para uma vida plena e feliz.</strong></p>
+            <br>
+            <p>Depois de formado em Administração, decidi seguir meu coração e migrar para o universo da programação. Atualmente, curso Análise e Desenvolvimento de Sistemas e me dedico com paixão ao aprendizado e prática do desenvolvimento. </p>
+            <p>Fascínio pelos detalhes, a obsessão pela qualidade e o foco em solucionar problemas são algumas das características que trago comigo de experiências anteriores e que continuo aprimorando em minha jornada como desenvolvedor desde 2021, trabalhando com JavaScript, Java e Python em projetos pessoais, serviços voluntários e Bootcamps, sempre priorizando a organização do código e as boas práticas.</p>
+            <br> 
+            <div class="sec-resume__animatedtext">
+                <pre class="animatedtext--content"></pre>
+            </div>   
+            <p><strong>Quero entender não apenas como fazer as coisas, mas por que elas funcionam, e por isso me dedico a estudar algoritmos, linguagens de baixo nível, teoria da computação, bases numéricas e lógica matemática. </strong></p>
 
-
+        </div>
 
         <div class="cont-section__scroll">
-            <p class="cont-section__scroll--text">Qualificações</p>
             <a href="#faculties">
+                <p class="cont-section__scroll--text">Conhecimentos</p>
                 <i class="uil uil-arrow-from-top"></i>
             </a>
         </div>
@@ -135,77 +143,202 @@
 
 
 
-    <!-- QUALIFICAÇÕES -->
+    <!-- CONHECIMENTOS -->
     <section class="cont-section sec-faculties" id="faculties">
-        <p>Meu arsenal</p>
-        <h2>Qualificações</h2>
+        <div class="cont-section__title">
+            <p>Meu arsenal</p>
+            <h2>Conhecimentos</h2>
+        </div>
+        
+
+        <div class="cont-section__content">
+            
+            <!-- Habilidades Técnicas -->
+            <section class="sec-faculties__card--acordeon">
+                <button class="card__trigger" type="button">
+                    <h3 class="trigger__title">Tecnologias</h3>
+                    <i class="uil uil-angle-down"></i>
+                </button>
+                <div class="card__content">
+                    
+
+                    <ul class="sec-faculties__card__content__list-techs">
+
+                        <li class="list-techs__item">
+                            <img src="assets/svgs/linguagens/html-color.svg" alt="">
+                            <h4>HTML</h4>
+                        </li>
+                        <li class="list-techs__item">
+                            <img src="assets/svgs/linguagens/css-color.svg" alt="">
+                            <h4>CSS</h4>
+                        </li>
+                        <li class="list-techs__item">
+                            <img src="assets/svgs/linguagens/javascript-color.svg" alt="">
+                            <h4>JavaScript</h4>
+                        </li>
+                        <li class="list-techs__item">
+                            <img src="assets/svgs/linguagens/java-color.svg" alt="">
+                            <h4>Java</h4>
+                        </li>
+                        <li class="list-techs__item">
+                            <img src="assets/svgs/linguagens/python-color.svg" alt="">
+                            <h4>Pyhton</h4>
+                        </li>
+                        <li class="list-techs__item">
+                            <img src="assets/svgs/linguagens/mysql-color.svg" alt="">
+                            <h4>MySQL</h4>
+                        </li>
+                        <li class="list-techs__item">
+                            <img src="assets/svgs/linguagens/bootstrap-color.svg" alt="">
+                            <h4>Bootstrap</h4>
+                        </li>
+                        <li class="list-techs__item">
+                            <img src="assets/svgs/linguagens/angular-color.svg" alt="">
+                            <h4>Angular</h4>
+                        </li>
+                        <li class="list-techs__item">
+                            <img src="assets/svgs/linguagens/git-color.svg" alt="">
+                            <h4>Git</h4>
+                        </li>
+
+                    </ul>
+
+                    
+                
+                </div>
+            </section>
 
 
-        <!-- Habilidades Técnicas -->
-        <section>
-            <h3>Tecnologias</h3>
+            <!-- Habilidades Pessoais -->
+            <section class="sec-faculties__card--acordeon">
+                <button class="card__trigger" type="button">
+                    <h3 class="trigger__title">Soft Skills</h3>
+                    <i class="uil uil-angle-down"></i>
+                </button>
+                <div class="card__content">
+                    
+                    <ul class="sec-faculties__card__content__list-skills">
+                        <li>Trabalho em Equipe</li>
+                        <li>Mega Curioso</li>
+                        <li>Autonomia</li>
+                        <li>Detalhista</li>
+                        <li>Consistente</li>
+                        <li>Organizado</li>
+                        <li>Pensamento Analítico</li>
+                        <li>Liderança</li>
+                    </ul>
+                    <p class="sec-faculties__card__content__text-skills">Meus colegas de trabalho costumam mencionar meu comprometimento, dedicação, atenção aos detalhes e curiosidade. Sou uma pessoa consistente e resiliente, sempre atento à novas oportunidades, que me permitam aprender e me desenvolver cada vez mais.</p>
+                    
+                </div>
+            </section>
 
 
-        </section>
+            <!-- Projetos -->
+            <section class="sec-faculties__card--acordeon">
+                <button class="card__trigger" type="button">
+                    <h3 class="trigger__title">Projetos</h3>
+                    <i class="uil uil-angle-down"></i>
+                </button>
+                <div class="card__content">
+                    
+                    <button class="allButtons card__button--repo">Repositório</button>
+                    <button class="allButtons card__button--page">Ver Page</button>
+                </div>
+            </section>
 
 
-        <!-- Habilidades Pessoais -->
-        <section>
-            <h3>Soft Skills</h3>
+            <!-- Educação -->
+            <section class="sec-faculties__card--acordeon">
+                <button class="card__trigger" type="button">
+                    <h3 class="trigger__title">Estudos</h3>
+                    <i class="uil uil-angle-down"></i>
+                </button>
+                <div class="card__content">
+                    
+                    <ul class="sec-faculties__card__content__list-education">
+                        <li class="list-education__item">
+                            <img src="assets/imagens/formacao/pucpr.png" alt="Logo da Puc Paraná" >
+                            <h4>Análise e Desenvolvimento de Sistemas</h4>
+                        </li>
+                        <li class="list-education__item">
+                            <img src="assets/imagens/formacao/dio.png" alt="Logo da D.I.O. Digital Innovation One" >
+                            <h4>JavaScript Developer</h4>
+                        </li>
+                        <li class="list-education__item">
+                            <img src="assets/imagens/formacao/startcapgemini.png" alt="Logo da formação Start Campgmeni" >
+                            <h4>Java Development</h4>
+                        </li>
+                        <li class="list-education__item">
+                            <img src="assets/imagens/formacao/descomplica.png" alt="Logo da Faculdade Descomplica" >
+                            <h4>Análise de Dados</h4>
+                        </li>
+                        <li class="list-education__item">
+                            <img src="assets/imagens/formacao/oraclenexteducation.png" alt="Logo da Alura" >
+                            <h4>Formação Front End</h4>
+                        </li>
+                        <li class="list-education__item">
+                            <img src="assets/imagens/formacao/pridedevsharerh.png" alt="Arte do Programa Pride Dev da Share RH">
+                            <h4>Java</h4>
+                        </li>
+                        <li class="list-education__item">
+                            <img src="assets/imagens/formacao/ufrrj.png" alt="Logo da Universidade Federal Rural do Rio de Janeiro" >
+                            <h4>Administração</h4>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </section>
 
 
-        </section>
+            <!-- Idiomas -->
+            <section class="sec-faculties__card--acordeon">
+                <button class="card__trigger" type="button">
+                    <h3 class="trigger__title">Idiomas</h3>
+                    <i class="uil uil-angle-down"></i>
+                </button>
+                <div class="card__content">
+                    
+                    <button class="allButtons card__button--repo">Repositório</button>
+                    <button class="allButtons card__button--page">Ver Page</button>
+                </div>
+            </section>
 
 
-        <!-- Projetos -->
-        <section >
-            <h3>Projetos</h3>
+            <!-- Experiências -->
+            <section class="sec-faculties__card--acordeon">
+                <button class="card__trigger" type="button">
+                    <h3 class="trigger__title">Jornada</h3>
+                    <i class="uil uil-angle-down"></i>
+                </button>
+                <div class="card__content">
+                    
+                    <button class="allButtons card__button--repo">Repositório</button>
+                    <button class="allButtons card__button--page">Ver Page</button>
+                </div>
+            </section>
 
 
-        </section>
+            <!-- Serviços -->
+            <section class="sec-faculties__card--acordeon">
+                <button class="card__trigger" type="button">
+                    <h3 class="trigger__title">Fins</h3>
+                    <i class="uil uil-angle-down"></i>
+                </button>
+                <div class="card__content">
+                    
+                    <button class="allButtons card__button--repo">Repositório</button>
+                    <button class="allButtons card__button--page">Ver Page</button>
+                </div>
+            </section>
 
-
-        <!-- Educação -->
-        <section>
-            <h3>Educação</h3>
-
-
-        </section>
-
-
-        <!-- Idiomas -->
-        <section>
-            <h3>Idiomas</h3>
-
-
-        </section>
-
-
-        <!-- Experiências -->
-        <section>
-            <h3>Experiências</h3>
-
-
-        </section>
-
+        </div>
 
         <div class="cont-section__scroll">
-            <p class="cont-section__scroll--text">Serviços</p>
-            <a href="#services">
+            <p class="cont-section__scroll--text">Contato</p>
+            <a href="#contact">
                 <i class="uil uil-arrow-from-top"></i>
             </a>
         </div>
-
-    </section>
-
-
-
-    <!-- SERVIÇOS -->
-    <section class="cont-section sec-services" id="services">
-        <p>Como posso te ajudar</p>
-        <h2>Serviços</h2>
-
-        
 
     </section>
 
@@ -213,9 +346,79 @@
 
     <!-- CONTATO -->
     <section class="cont-section sec-contact" id="contact">
-        <p>Vamos lá!?</p>
-        <h2>Contato</h2>
+        <div class="cont-section__title">
+            <p>Vamos lá!?</p>
+            <h2>Contato</h2>
+        </div>
+        
+        <div class="cont-section__content">
 
+            <div class="sec-contact__content--form">
+
+                <div id="contatosformulario-container">
+                    <h4>Envie uma Mensagem</h4>
+                    <form action="./cadastro_concluido.html" id="formulario">
+                        <fieldset>
+                            <legend id="formulario__legenda">Te respondo já!</legend>
+             
+                            <div class="div-formulario__campo">
+                                <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-tipo="nome" required>
+                                <label class="input-label" for="nome">Nome</label>
+                                <span class="input-mensagem-erro">Este campo não está válido</span>
+                            </div>
+                            <div class="div-formulario__campo">
+                                <input name="email" id="email" class="input" type="email" placeholder="Email" data-tipo="email" required>
+                                <label class="input-label" for="email">Email</label>
+                                <span class="input-mensagem-erro">Este campo não está válido</span>
+                            </div>
+                            <div class="formulario__campo" id="campo-mensagem">
+                                <label for="message">Mensagem</label>
+                                <textarea class="input input-texto" rows="8" cols="8" type="text" name="mensagem" id="mesagem"
+                                spellcheck="false"></textarea>
+                            </div>
+                        </fieldset>
+                        <button class="botoes" type="submit">Enviar Mensagem</a>
+                    </form>
+                </div>
+
+            </div>
+
+
+            <div class="sec-contact__content--cv">
+                <a id="contato__curriculo__donwload" target="_blank" download="CV_AbnerAndrade_DesenvolvedorFrontEnd" href="assets/docs/cv_abnerandrade_portfolio.pdf">Abrir currículo em PDF <img src="assets/svgs/setas/seta-link.svg" alt="Link para Github de Abner Andrade"></a>
+            </div>
+            
+
+            <ul class="sec-contact__content--list">
+                <li>
+                    <address>
+                        <p>
+                            Brasil
+                            <br>
+                            Rio de Janeiro
+                            <br>
+                            Cidade do Rio
+                        </p>
+                    </address>
+                </li>
+                <li>
+                    <address>
+                        <p>Envie um e-mail:</p>
+                        <p><a href="mailto:aa.abnerandrade@outlook.com.br">AA.AbnerAndrade@outlook.com.br</a></p>
+                    </address>
+                </li>
+                <li>
+                    <address>
+                        <p>Chamada ou WhatsApp</p>
+                        <p><a href="tel:+5521973257039">(+55) 21 97325-7039</a></p>
+                        
+                    </address>
+                </li>
+                
+
+            </ul>
+
+        </div>
 
     </section>
 
@@ -228,6 +431,26 @@
                 <i class="uil uil-top-arrow-to-top"></i>
             </a>
             <p>Voltar ao Topo</p>
+        </div>
+        <div class="cont-footer__social">
+            <ul class="cont-footer__social__list">
+                <li>
+                    <a href="https://github.com/aa-abnerandrade" >
+                        <i class="uil uil-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/abnerandrade/">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=5521973257039&text=Ol%C3%A1%2C%20Abner!%20Vi%20teu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20com%20voc%C3%AA.%20">
+                        <i class="uil uil-whatsapp-alt"></i>
+                    </a>
+                </li>
+            </ul>
+
         </div>
         <div class="cont-footer__credits">
             <h2>Desenvolvido por Abner Andrade</h2>
@@ -265,171 +488,16 @@
         </section>
      </section>
      
-     <!-- SKILLS -->
-     <section class="secao-container" id="skills">
-        <h2>Skills</h2>
-     
-        <div class="skills__cards">
-            <div id="div-container__skills__cards">
-                <div class="skills__cards__item">
-                    <img src="assets/svgs/linguagens/html-color.svg" alt="">
-                    <h3>HTML</h3>
-                </div>
-                <div class="skills__cards__item">
-                    <img src="assets/svgs/linguagens/css-color.svg" alt="">
-                    <h3>CSS</h3>
-                </div>
-                <div class="skills__cards__item">
-                    <img src="assets/svgs/linguagens/javascript-color.svg" alt="">
-                    <h3>JavaScript</h3>
-                </div>
-                <div class="skills__cards__item">
-                    <img src="assets/svgs/linguagens/git-color.svg" alt="">
-                    <h3>Git</h3>
-                </div>
-     
-                <div class="skills__cards__item">
-                    <img src="assets/svgs/linguagens/python-color.svg" alt="">
-                    <h3>Pyhton</h3>
-                </div>
-                <div class="skills__cards__item">
-                    <img src="assets/svgs/linguagens/java-color.svg" alt="">
-                    <h3>Java</h3>
-                </div>
-            </div>
-        </div>
-        
-     </section>
-     
-     <!-- FORMAÇÃO -->
-     <section class="secao-container" id="formacao">
-        <h2>Formação</h2>
-     
-        <section class="formacao__secao">
-            <ul class="formacao__secao__lista">
-                <li>
-                    <div class="formacao__secao__lista__card">
-                        <img src="assets/imagens/formacao/pucpr.png" alt="Logo da Puc Paraná" class="formacao__secao__lista__card__imagem">
-                        <h3>Análise e Desenvolvimento de Sistemas</h3>
-                    </div>
-                </li>
-                <li>
-                    <div class="formacao__secao__lista__card">
-                        <img src="assets/imagens/formacao/descomplica.png" alt="Logo da Faculdade Descomplica" class="formacao__secao__lista__card__imagem">
-                        <h3>Análise de Dados</h3>
-                    </div>
-                </li>
-                <li>
-                    <div class="formacao__secao__lista__card">
-                        <img src="assets/imagens/formacao/ufrrj.png" alt="Logo da Universidade Federal Rural do Rio de Janeiro" class="formacao__secao__lista__card__imagem">
-                        <h3>Administração</h3>
-                    </div>
-                </li>
-            </ul>
-        </section>
-     
-        <section class="formacao__secao">
-            <ul class="formacao__secao__lista">
-                <li>
-                    <div class="formacao__secao__lista__card">
-                        <img src="assets/imagens/formacao/oraclenexteducation.png" alt="Arte do Programa Oracle Next Education" class="formacao__secao__lista__card__imagem">
-                        <h3>Desenvolvimento Web e Programação</h3>
-                    </div>
-                </li>
-                <li>
-                    <div class="formacao__secao__lista__card">
-                        <img src="assets/imagens/formacao/pridedevsharerh.png" alt="Arte do Programa Pride Dev da Share RH" class="formacao__secao__lista__card__imagem">
-                        <h3>Java</h3>
-                    </div>
-                </li>
-                <li>
-                    <div class="formacao__secao__lista__card">
-                        <img src="assets/imagens/formacao/alura.png" alt="Logo da Alura" class="formacao__secao__lista__card__imagem">
-                        <h3>HTML e CSS</h3>
-                    </div>
-                </li>
-            </ul>
-        </section>
-        
-     </section>
-     
-     <!-- SOBRE MIM -->
-     <section class="secao-container" id="sobre">
-        <h2>Sobre Mim</h2>
-     
-        <div class="sobre__carrossel">
-     
-        </div>
-        <div class="sobre__textoanimado">
-            <pre class="sobre__textoanimado_conteudo"></pre>
-        </div>
-     
-     </section>
-     
-     <!-- CONTATO-->
-     <section class="secao-container" id="contato">
-        <h2>Contato</h2>
-     
-        <div class="div-contato" id="contato__links-container">
-            <h3>Me encontre em</h3>
-     
-            <ul class="contato__links__lista">
-     
-                <li class="contato__links__lista__item">
-                    <a href="#"><img class="contato__links__lista__item__imagem" src="assets/svgs/redes/linkedin.svg" alt="Ícone do LinkedIn"></img></a>
-                </li>
-                <li class="contato__links__lista__item">
-                    <a href="#"><img class="contato__links__lista__item__imagem" src="assets/svgs/redes/github.svg" alt="Ícone do GitHub"></img></a>
-                </li>
-                <li class="contato__links__lista__item">
-                    <a href="#"><img class="contato__links__lista__item__imagem" src="assets/svgs/redes/whatsapp.svg" alt="Ícone do WhatsApp"></img></a>
-                </li>
-            </ul>
-        </div>
-        <div class="div-contato" id="contato__infos-container">
-            <h3>E-mail</h3>
-            <p>aa.AbnerAndrade@outlook.com.br</p>
-     
-        </div>
-        <div class="div-contato" id="contato__curriculo-container">
-            <h3>Meu CV</h3>
-            <br>
-            <a id="contato__curriculo__donwload" target="_blank" download="CV_AbnerAndrade_DesenvolvedorFrontEnd" href="assets/docs/cv_abnerandrade_portfolio.pdf">Abrir currículo em PDF <img src="assets/svgs/setas/seta-link.svg" alt="Link para Github de Abner Andrade"></a>
-        </div>
-        <!--
-        <div id="contatosformulario-container">
-            <h3>Envie uma Mensagem</h3>
-            <form action="./cadastro_concluido.html" id="formulario">
-                <fieldset>
-                    <legend id="formulario__legenda">Te respondo já!</legend>
-     
-                    <div class="div-formulario__campo">
-                        <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-tipo="nome" required>
-                        <label class="input-label" for="nome">Nome</label>
-                        <span class="input-mensagem-erro">Este campo não está válido</span>
-                    </div>
-                    <div class="div-formulario__campo">
-                        <input name="email" id="email" class="input" type="email" placeholder="Email" data-tipo="email" required>
-                        <label class="input-label" for="email">Email</label>
-                        <span class="input-mensagem-erro">Este campo não está válido</span>
-                    </div>
-                    <div class="formulario__campo" id="campo-mensagem">
-                        <label for="message">Mensagem</label>
-                        <textarea class="input input-texto" rows="8" cols="8" type="text" name="mensagem" id="mesagem"
-                        spellcheck="false"></textarea>
-                    </div>
-                </fieldset>
-                <button class="botoes" type="submit">Enviar Mensagem</a>
-            </form>
-        </div>
-        -->
      
      
-     </section>
+     
 
-     <script src="js/textoanimado.js"></script>
+     <script src="js/core.js"></script>
+     <script src="js/animationtext.js"></script>
      <script src="js/api.js"></script>
+     <script src="js/about-acordeon.js"></script>
      <script src="js/about.js"></script>
+
 
  </body>
 

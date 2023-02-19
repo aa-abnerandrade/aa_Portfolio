@@ -1,0 +1,19 @@
+.sec-resume {
+    background-color: var(--pretoAmeno);
+}
+
+.sec-resume .cont-section__content {
+    font-size: .8rem;
+    line-height: .9rem;
+}
+
+.sec-resume .cont-section__content strong {
+    font-family: 'ag lightblack';
+    font-size: 1rem;
+    
+}
+
+.sec-resume__animatedtext {
+    margin: 0.5rem 0;
+    min-height: 240px;
+}

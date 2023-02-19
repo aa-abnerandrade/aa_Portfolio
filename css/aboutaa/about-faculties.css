@@ -1,0 +1,141 @@
+
+.trigger__title {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.sec-faculties__card--acordeon {
+    display: flex;
+    border: 2px solid var(--vermelhoAmeno);
+    flex-direction: column;
+    width: 100%;
+    margin: 0.5rem auto;
+    border-radius: .5rem;
+    transition: .5s;
+}
+
+.trigger__title {
+    font-family: 'slabsonder rough';
+}
+
+.showAcordeon i {
+    transform: rotate(180deg);
+    transition: 1s;
+}
+
+.sec-faculties__card--acordeon:hover {
+    background-color: var(--vermelhoAmeno);
+    border-color: var(--vermelhoAmenoTransparente);
+}
+
+.card__trigger {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 0.75rem 1rem;
+    background-color: transparent;
+    color: var(--brancoAmeno);
+    border: none;
+}
+
+.sec-faculties__card--acordeon .card__content {
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+}
+
+.showAcordeon .card__content {
+    display: block;
+    height: auto;
+    opacity: 1;
+}
+
+
+
+        .sec-faculties__card__content__list-techs {
+            display: grid;
+            gap: .5rem .5rem;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-items: center;
+            word-wrap: break-word;
+        }
+
+                .list-techs__item {
+                    align-items: center;
+                    background-color: var(--pretoAmeno);
+                    border-radius: 5%;
+                    box-sizing: border-box;
+                    color: var(--brancoAmeno);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    margin: 0.15rem;
+                    max-height: 250px;
+                    max-width: 175px;
+                    min-height: 10px;
+                    min-width: 100px;
+                    padding: .1rem 0.25rem;
+                }
+
+                .list-techs__item img {
+                    max-width: 100%;
+                    vertical-align: middle;
+                }
+
+                .list-techs__item h4 {
+                    font-family: 'ag lightblack';
+                }
+
+        
+
+        .sec-faculties__card__content__list-skills {
+            color: var(--brancoAmeno);
+            font-family: 'ag black';
+        }
+
+            .sec-faculties__card__content__text-skills {
+                color: var(--brancoAmeno);
+                margin: .5rem auto;
+                padding: .5rem;
+            }
+        
+
+
+        .sec-faculties__card__content__list-education {
+            display: grid;
+            gap: .5rem .5rem;
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+            word-wrap: break-word;
+        }
+
+            .list-education__item {
+                align-items: center;
+                
+                border-radius: 5%;
+                box-sizing: border-box;
+                color: var(--brancoAmeno);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin: 0.15rem;
+                max-height: 250px;
+                max-width: 175px;
+                min-height: 10px;
+                min-width: 100px;
+                padding: .1rem 0.25rem;
+            }
+
+            .list-education__item img {
+                max-width: 80%;
+                border-radius: 5%;
+                
+            }
+
+            .list-education__item h4 {
+                font-family: 'ag lightblack';
+            }
+

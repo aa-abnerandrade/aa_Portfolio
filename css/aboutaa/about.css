@@ -1,4 +1,49 @@
 .all {
     margin-top: 0;
-    
 }
+
+.cont-section {
+    padding: 3rem 0.5rem 0.1rem;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+    .cont-section__title {
+        text-align: center;
+    }
+
+        .cont-section__title p {
+            font-family: 'ag black';
+            color: var(--vermelhoCintilante);
+        
+        }
+
+        .cont-section__title h2 {
+            font-family: 'slabsonder rough';
+            font-size: .8rem;
+            color: var(--vermelhoCintilanteTransparente);
+
+        }
+
+
+    .cont-section__content {
+        font-family: 'ag light';
+        text-align: center;
+        font-size: 1rem;
+        color: var(--vermelhoCintilante);
+        width: 100%;
+    }
+
+
+
+    .cont-section__scroll {
+        font-family: 'ag black';
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        color: var(--vermelhoCintilante);
+        padding: 0.5rem 0;
+    }

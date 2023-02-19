@@ -1,0 +1,11 @@
+.sec-contact {
+    background-color: var(--brancoAmeno);
+    height: 90vh;
+}
+
+.sec-contact .cont-section__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+}

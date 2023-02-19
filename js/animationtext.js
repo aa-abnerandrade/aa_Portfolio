@@ -1,7 +1,7 @@
-var textoanimado = document.querySelector('.sobre__textoanimado_conteudo');
+var contAnimatedText = document.querySelector('.animatedtext--content');
 
 console.log('Até TW');
-var typewriter = new Typewriter(textoanimado, {
+var typewriter = new Typewriter(contAnimatedText, {
   loop: true,
   delay: 50,
   deleteSpeed: 0,
