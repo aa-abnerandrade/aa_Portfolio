@@ -1,6 +1,7 @@
 .sec-contact {
-    background-color: var(--brancoAmeno);
+    background-color: var(--brancoAmenoTransparente);
     height: 90vh;
+    display: flex;
 }
 
 .sec-contact .cont-section__content {
@@ -8,4 +9,15 @@
     flex-direction: column;
     justify-content: space-around;
     height: 90%;
+}
+
+.sec-contact__content--form {
+
+}
+
+.sec-contact__content--form input {
+    border: none;
+    height: 1.25rem;
+    padding: .5rem;
+    border-bottom: 1px solid var(--vermelhoAmenoTransparente);
 }

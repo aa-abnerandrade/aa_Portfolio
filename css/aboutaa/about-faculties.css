@@ -1,4 +1,14 @@
 
+.sec-faculties {
+    display: inline-table;
+    box-sizing: border-box;
+    text-align: -webkit-center; 
+}
+
+.sec-faculties .cont-section__content {
+    width: 90%;
+}
+
 .trigger__title {
     text-transform: uppercase;
     font-size: 1rem;
@@ -9,7 +19,7 @@
     border: 2px solid var(--vermelhoAmeno);
     flex-direction: column;
     width: 100%;
-    margin: 0.5rem auto;
+    margin: 1rem auto;
     border-radius: .5rem;
     transition: .5s;
 }
@@ -138,4 +148,31 @@
             .list-education__item h4 {
                 font-family: 'ag lightblack';
             }
+          
+            
+
+        .sec-faculties__card__content__list-experiences {
+            color: var(--brancoCintilante);
+        }
+
+            .sec-faculties__card__content__list-experiences dt {
+                font-family: 'ag regular';
+                text-transform: uppercase;
+                font-size: .6rem;
+                margin-top: 1rem;
+                margin-bottom: .5rem;
+                
+            }
+
+            .sec-faculties__card__content__list-experiences dd {
+                font-size: .6rem;
+            }
+
+.sec-faculties .cont-section__scroll {
+    position: absolute;
+    bottom: .5rem;
+    left: 0;
+    width: 100%;
+    box-sizing: content-box;
+}
 
