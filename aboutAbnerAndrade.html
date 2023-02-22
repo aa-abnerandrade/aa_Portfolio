@@ -362,43 +362,50 @@
         </div>
         
         <div class="cont-section__content">
-
                 
-                    <h4>Envie uma Mensagem</h4>
-                    <form class="sec-contact__content--form" action="./cadastro_concluido.html" id="formulario">
-                        <fieldset>
-                            <legend id="formulario__legenda">Te respondo já!</legend>
-             
-                            <div class="div-formulario__campo">
-                                <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-tipo="nome" required>
-                                <label class="input-label" for="nome">Nome</label>
-                                <span class="input-mensagem-erro">Este campo não está válido</span>
-                            </div>
-                            <div class="div-formulario__campo">
-                                <input name="email" id="email" class="input" type="email" placeholder="Email" data-tipo="email" required>
-                                <label class="input-label" for="email">Email</label>
-                                <span class="input-mensagem-erro">Este campo não está válido</span>
-                            </div>
-                            <div class="formulario__campo" id="campo-mensagem">
-                                <label for="message">Mensagem</label>
-                                <textarea class="input input-texto" rows="8" cols="8" type="text" name="mensagem" id="mesagem"
-                                spellcheck="false"></textarea>
-                            </div>
-                        </fieldset>
-                        <button class="allButtons" type="submit">Enviar Mensagem</a>
-                    </form>
+            
+            <form class="sec-contact__content__form" action="./cadastro_concluido.html" id="formulario">
+                <fieldset>
+                    <legend><h3>Envie uma Mensagem</h3></legend>
+        
+                    <div class="sec-contact__content__form--fieldarea">
+                        <input name="nome" id="nome" class="input" type="text" placeholder="Nome *" data-tipo="nome" required>
+                        <label class="input-label" for="nome"></label>
+                        <span class="input-mensagem-erro">Este campo não está válido</span>
+                    </div>
+                    <div class="sec-contact__content__form--fieldarea">
+                        <input name="email" id="email" class="input" type="email" placeholder="Email *" data-tipo="email" required>
+                        <label class="input-label" for="email"></label>
+                        <span class="input-mensagem-erro">Este campo não está válido</span>
+                    </div>
+                    <div class="sec-contact__content__form--fieldarea">
+                        <input name="assunto" id="assunto" class="input" type="text" placeholder="Assunto" data-tipo="assunto">
+                        <label class="input-label" for="assunto"></label>
+                    </div>
+                    <div class="sec-contact__content__form--fieldarea">
+                        <label for="message"></label>
+                        <textarea name="mensagem" id="mesagem" class="input input-texto" type="text" placeholder="Mensagem *" rows="8" cols="8"  
+                        spellcheck="false" required></textarea>
+                        <span class="input-mensagem-erro">Este campo não está válido</span>
+                    </div>
+                </fieldset>
+                <button class="allButtons" type="submit">Enviar Mensagem</button>
+            </form>
 
             
 
 
             <div class="sec-contact__content--cv">
-                <a id="contato__curriculo__donwload" target="_blank" download="CV_AbnerAndrade_DesenvolvedorFrontEnd" href="assets/docs/cv_abnerandrade_portfolio.pdf">Abrir currículo em PDF <img src="assets/svgs/setas/seta-link.svg" alt="Link para Github de Abner Andrade"></a>
+                <h3><a id="contato__curriculo__donwload" target="_blank" download="CV_AbnerAndrade_DesenvolvedorFrontEnd" href="assets/docs/cv_abnerandrade_portfolio.pdf">
+                    Abrir currículo em PDF <img src="assets/svgs/setas/seta-link.svg" alt="Link para Github de Abner Andrade">
+                </a></h3>
             </div>
             
 
             <ul class="sec-contact__content--list">
                 <li>
                     <address>
+                        <h4>Localização</h4>
                         <p>
                             Brasil
                             <br>
@@ -410,13 +417,13 @@
                 </li>
                 <li>
                     <address>
-                        <p>Envie um e-mail:</p>
+                        <h4>Envie um e-mail</h4>
                         <p><a href="mailto:aa.abnerandrade@outlook.com.br">AA.AbnerAndrade@outlook.com.br</a></p>
                     </address>
                 </li>
                 <li>
                     <address>
-                        <p>Chamada ou WhatsApp</p>
+                        <h4>Chamada ou WhatsApp</h4>
                         <p><a href="tel:+5521973257039">(+55) 21 97325-7039</a></p>
                         
                     </address>

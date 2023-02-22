@@ -104,12 +104,11 @@
 
 
 .allButtons {
-    background-color: var(--vermelhoAbsoluto);
+    font-family: 'sanssonder rough';
+    background-color: var(--pretoAmeno);
     border: none;
-    color: var(--brancoAbsoluto);
-    font-size: 0.6rem;
-    font-weight: bolder;
-    height: 50px;
-    margin: 0.25rem;
+    color: var(--brancoCintilante);
+    font-size: 0.8rem;
+    height: 2rem;
     width: 50%;
 }

@@ -54,17 +54,26 @@
 
 .showAcordeon .card__content {
     display: block;
-    padding: 0 1rem 1rem 2rem;
+    padding: 1rem;
     height: auto;
     opacity: 1;
 }
 
-.card__button--repo {
+.card__content--screenshot {
+    width: 100%;
+}
+
+
+.card__content--btts {
+    padding: .5rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 
 }
 
-.card__button--page {
-
+.card__button--repo, .card__button--page {
+    width: 40%;
 }
 
 
