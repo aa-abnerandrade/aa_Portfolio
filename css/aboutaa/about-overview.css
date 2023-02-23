@@ -1,5 +1,7 @@
 .sec-overview { 
-    background-color: var(--vermelhoCintilanteTransparente);
+    background: linear-gradient(180deg, 
+        var(--vermelhoCintilanteTransparente) 0%, 
+        var(--vermelhoAmenoTransparente) 100%);
     box-sizing: border-box;
 }
 

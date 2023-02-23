@@ -7,6 +7,7 @@
 
 .sec-faculties .cont-section__content {
     width: 90%;
+    margin-bottom: 3rem;
 }
 
 .trigger__title {
@@ -68,7 +69,7 @@
         .sec-faculties__card__content__list-techs {
             display: grid;
             gap: .5rem .5rem;
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
             justify-items: center;
             word-wrap: break-word;
         }
@@ -83,15 +84,17 @@
                     flex-direction: column;
                     justify-content: flex-end;
                     margin: 0.15rem;
-                    max-height: 250px;
-                    max-width: 175px;
-                    min-height: 10px;
-                    min-width: 100px;
+                    min-width: 140px;
+                    width: 100%;
+                    max-width: 160px;
+                    min-height: 140px;
+                    height: 90%;
+                    max-height: 160px;
                     padding: .1rem 0.25rem;
                 }
 
                 .list-techs__item img {
-                    max-width: 100%;
+                    max-width: 80%;
                     vertical-align: middle;
                 }
 
@@ -103,16 +106,53 @@
 
         .sec-faculties__card__content__list-skills {
             color: var(--brancoAmeno);
-            font-family: 'ag black';
+            font-family: 'ag bold';
+            font-size: .8rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
         }
 
             .sec-faculties__card__content__text-skills {
                 color: var(--brancoAmeno);
                 margin: .5rem auto;
                 padding: .5rem;
+                font-family: 'ag lightblack';
             }
         
 
+
+        .sec-faculties__card__content__list-projects {
+            display: grid;
+
+        }
+
+        .list-projects__item {
+            padding: .5rem;
+            text-align: right;
+            border-top: 1px solid var(--pretoAmenoTransparente);
+        }
+            
+            .list-projects__item h4 {
+                font-family: 'slabsonder rough';
+                color: var(--brancoAmeno);
+            }
+
+            .list-projects__item p {
+                font-family: 'ag black';
+                color: var(--brancoAmeno);
+            }
+
+            .list-projects__item--btts {
+                padding: .5rem 0;
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+            
+            }
+            
+            .card__button--repo, .card__button--page {
+                width: 40%;
+            }
 
         .sec-faculties__card__content__list-education {
             display: grid;
@@ -149,14 +189,25 @@
                 font-family: 'ag lightblack';
             }
           
+        
             
+        .list-languages__item {
+            margin: 1rem auto;
+        }
+
+            .list-languages__item h4 {
+                font-family: 'ag bold';
+                color: var(--brancoAmeno);
+            }
+
 
         .sec-faculties__card__content__list-experiences {
             color: var(--brancoCintilante);
+            margin-bottom: 1rem;
         }
 
             .sec-faculties__card__content__list-experiences dt {
-                font-family: 'ag regular';
+                font-family: 'ag bold';
                 text-transform: uppercase;
                 font-size: .6rem;
                 margin-top: 1rem;
@@ -165,11 +216,23 @@
             }
 
             .sec-faculties__card__content__list-experiences dd {
-                font-size: .6rem;
+                font-size: .7rem;
+                font-family: 'ag bold';
+                color: var(--brancoAmenoTransparente);
+            }
+
+
+            .list-services__item {
+                margin-bottom: 1rem;
+            }
+
+            .list-services__item h4 {
+                font-family: 'slabsonder';
             }
 
 .sec-faculties .cont-section__scroll {
     position: absolute;
+    display: contents;
     bottom: .5rem;
     left: 0;
     width: 100%;
