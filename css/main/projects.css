@@ -17,7 +17,7 @@
     width: 100%;
     margin: 0.5rem 0;
     border-radius: 1rem;
-    transition: .25s;
+    transition: .50s;
 }
 
 .trigger__title {
@@ -49,7 +49,7 @@
     overflow: hidden;
     height: 0;
     opacity: 0;
-    transition: opacity .25s ease-in-out;
+    transition: opacity .50s ease-in-out;
 }
 
 .showAcordeon .card__content {
@@ -74,6 +74,9 @@
 
 .card__button--repo, .card__button--page {
     width: 40%;
+    text-align: center;
+    padding: .25rem;
+    line-height: 2rem;
 }
 
 

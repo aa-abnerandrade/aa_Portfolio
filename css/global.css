@@ -90,6 +90,7 @@
 .addBlur {
     filter: blur(20px);
     z-index: 0;
+    transition: .5s;
 }
 
 .cont-section {
