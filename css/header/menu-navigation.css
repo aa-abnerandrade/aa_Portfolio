@@ -29,7 +29,7 @@
         flex-direction: column;
         width: 100%;
         height: 100%;
-        padding: 0.5rem;
+        padding: 0.5em;
         box-sizing: border-box;
         justify-content: space-between;
 
@@ -42,16 +42,16 @@
     .navigation__list--title {
         font-family: 'slabsonder';
         color: var(--vermelhoCintilante);
-        font-size: 2rem;
-        margin: 1rem auto;
+        font-size: 2em;
+        margin: .25em auto;
         text-align: center;
     }
 
     .navigation__list--content {
         font-family: 'ag bold';
         color: var(--pretoCintilante);
-        font-size: 0.8rem;
-        margin: 1rem auto;
+        font-size: .8em;
+        margin: 1em auto;
         text-align: center;
         text-transform: none;
     }
@@ -61,7 +61,7 @@
         text-transform: uppercase;
         font-family: 'ag black';
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.25em;
         color: var(--vermelhoCintilante);
     }
 

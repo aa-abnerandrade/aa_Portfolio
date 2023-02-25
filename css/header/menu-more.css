@@ -10,14 +10,14 @@
         font-family: 'slabsonder rough';
         color: var(--vermelhoAmeno);
         width: 70%;
-        margin: 1rem auto;
+        margin: 1em auto;
     }
 
     .menu__more__icon {
         background-color: transparent;
         border: none;
         color: var(--vermelhoAmeno);
-        font-size: 1.25rem;
+        font-size: 1.25em;
         width: 20%;
         margin: 1rem auto;
         text-align: right;

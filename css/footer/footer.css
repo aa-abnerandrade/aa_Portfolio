@@ -16,17 +16,16 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        font-size: .7rem;
+        font-size: 1em;
         color: var(--brancoAmenoTransparente);
     }
 
-    .cont-footer__scroll img {
-        max-height: 50px;
-        margin: 0.25rem 0;
+    .cont-footer__scroll p {
+        font-size: .6em;
     }
 
 
 .cont-footer__credits {
-    font-size: 0.6rem;
+    font-size: 0.6em;
     padding: 0.5rem;
 }

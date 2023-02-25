@@ -7,12 +7,16 @@
 
 .sec-faculties .cont-section__content {
     width: 90%;
-    margin-bottom: 3rem;
+    height: 75%;
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .trigger__title {
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 .sec-faculties__card--acordeon {
@@ -20,7 +24,7 @@
     border: 2px solid var(--vermelhoAmeno);
     flex-direction: column;
     width: 100%;
-    margin: 1rem auto;
+    margin: .6em auto;
     border-radius: .5rem;
     transition: .5s;
 }
@@ -44,8 +48,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.5rem;
-    padding: 0.75rem 1rem;
+    font-size: 1em;
+    padding: 0.75em 1em;
     background-color: transparent;
     color: var(--brancoAmeno);
     border: none;
@@ -232,7 +236,6 @@
 
 .sec-faculties .cont-section__scroll {
     position: absolute;
-    display: contents;
     bottom: .5rem;
     left: 0;
     width: 100%;
