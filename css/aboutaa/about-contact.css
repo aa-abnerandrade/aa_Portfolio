@@ -20,11 +20,11 @@
     box-sizing: border-box;
     width: 100%;
     height: 50%;
-    padding: .5rem .5rem;
+    padding: .5em .5em;
 }
 
 .sec-contact__content__form--fieldarea {
-    margin: .5rem auto;
+    margin: .5em auto;
     box-sizing: border-box;
 }
 
@@ -32,32 +32,33 @@
     box-sizing: border-box;
     border: none;
     width: 100%;
-    height: 2rem;
-    padding: .5rem;
+    height: 2em;
+    padding: .5em;
     border-bottom: 1px solid var(--vermelhoAmenoTransparente);
     background-color: transparent;
     font-family: 'ag bold';
 }
 
 .sec-contact__content__form--fieldarea span {
-    font-size: .6rem;
+    font-size: .6em;
     font-family: 'ag regular';
     color: var(--vermelhoAmeno);
 }
 
 .sec-contact__content--cv {
-    height: 10%;
+    height: 1em;
 }
 
 .sec-contact__content--cv h3 {
     font-family: 'slabsonder rough';
-    font-size: 2rem;
+    font-size: 1em;
     color: var(--brancoAbsoluto);
     background-color: var(--vermelhoCintilante);
-    padding: .5rem;
+    padding: .5em;
 }
 
 .sec-contact__content--list {
+    font-size: .8em;
     height: 30%;
     display: flex;
     flex-direction: column;
@@ -65,7 +66,7 @@
 }
 
 .sec-contact__content--list li {
-    margin-bottom: .5rem;
+    margin-bottom: .5em;
 }
 
 .sec-contact__content--list h4 {
@@ -73,7 +74,7 @@
 }
 
 .sec-contact__content--list i::before {
-    margin-bottom: .5rem;
+    margin-bottom: .5em;
 }
 
 

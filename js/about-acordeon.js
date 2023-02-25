@@ -9,9 +9,15 @@ acordeonTriggers.forEach((trigger)=> {
         const acordeon = trigger.parentElement;
         const isOpen = acordeon.classList.contains('showAcordeon');
 
+        let allOpen = document.querySelectorAll('.showAcordeon');
+        console.log(allOpen);
+
         if (isOpen) {
             acordeon.classList.remove('showAcordeon');
         } else {
+            allOpen.forEach((openedAcordeon)=> {
+                openedAcordeon.classList.remove('showAcordeon');
+            })
             acordeon.classList.add('showAcordeon');
         }
 

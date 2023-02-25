@@ -1,7 +1,7 @@
 
 const bttMenuMore = document.querySelector('#icon__button');
 const icoMenuMore = document.querySelector('#icon__text');
-const lstMenuNavigation = document.querySelector('.menu__navigation--hidden');
+const lstMenuNavigation = document.querySelector('#menu__navigation');
 let showNavigation = false;
 
 bttMenuMore.addEventListener('click', (e)=> {

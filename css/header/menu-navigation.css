@@ -1,14 +1,25 @@
+.menu__navigation {
+    height: 85vh;
+    width: 95%;
+    margin: 1rem auto;
+    overflow: hidden;
+    background-color: var(--vermelhoAmenoTransparente);
+}
+
 .menu__navigation--hidden {
-    display: none;
+    transform: translateY(-2rem) translateX(6rem);
+    width: 0;
+    height: 0;
+    
+    overflow: hidden;
     opacity: 0;
+    transition: all .5s ease-in-out;
 }
 
 .menu__navigation--show {
-    height: 85vh;
-    width: 95%;
     opacity: 1;
-    margin: 1rem auto;
-    background-color: var(--vermelhoAmenoTransparente);
+    transform: translateY(0px);
+    transition: all .5s ease-in-out;
     
 }
 
@@ -53,3 +64,10 @@
         font-size: 1rem;
         color: var(--vermelhoCintilante);
     }
+
+    #navigation--go-to-AbnerAndrade:active {
+        transform: translateX(1rem) ;
+        transition: all 1s ease-out;
+    }
+
+

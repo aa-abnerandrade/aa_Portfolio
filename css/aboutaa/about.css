@@ -32,7 +32,7 @@
     .cont-section__content {
         font-family: 'ag light';
         text-align: center;
-        font-size: 1rem;
+        font-size: 1em;
         color: var(--brancoAmeno);
         width: 100%;
     }

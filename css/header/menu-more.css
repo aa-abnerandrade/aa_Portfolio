@@ -23,6 +23,11 @@
         text-align: right;
     }
 
+    .menu__more__icon:active {
+
+        transform: rotateX(120deg);
+        transition: all .2s linear;
+    }
 
 
 
