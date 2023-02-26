@@ -26,3 +26,9 @@
     margin: .5em 0;
     min-height: 10em;
 }
+
+.animatedtext--content {
+    font-size: 4vw;
+    max-width: 100%;
+    overflow: scroll;
+}

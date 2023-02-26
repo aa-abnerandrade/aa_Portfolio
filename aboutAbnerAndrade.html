@@ -422,25 +422,25 @@
                     <legend><h3>Envie uma Mensagem</h3></legend>
         
                     <div class="sec-contact__content__form--fieldarea">
-                        <input name="nome" id="nome" class="input" type="text" placeholder="Nome *" data-tipo="nome" required>
+                        <input name="nome" id="nome" class="input" type="text" placeholder="Nome *" maxlength="20" required>
                         <label class="input-label" for="nome"></label>
-                        <span class="input-mensagem-erro">.</span>
+                        <span class="input-mensagem-erro"> </span>
                     </div>
                     <div class="sec-contact__content__form--fieldarea">
-                        <input name="email" id="email" class="input" type="email" placeholder="Email *" data-tipo="email" required>
+                        <input name="email" id="email" class="input" type="email" placeholder="Email *" maxlength="50" required>
                         <label class="input-label" for="email"></label>
-                        <span class="input-mensagem-erro">.</span>
+                        <span class="input-mensagem-erro"> </span>
                     </div>
                     <div class="sec-contact__content__form--fieldarea">
-                        <input name="assunto" id="assunto" class="input" type="text" placeholder="Assunto" data-tipo="Assunto *">
+                        <input name="assunto" id="assunto" class="input" type="text" placeholder="Assunto *" maxlength="25" required>
                         <label class="input-label" for="assunto"></label>
-                        <span class="input-mensagem-erro">.</span>
+                        <span class="input-mensagem-erro"> </span>
                     </div>
                     <div class="sec-contact__content__form--fieldarea">
                         <label for="message"></label>
-                        <textarea name="mensagem" id="mesagem" class="input input-texto" type="text" placeholder="Mensagem *" rows="8" cols="8"  
+                        <textarea name="mensagem" id="mesagem" class="input input-texto" type="text" placeholder="Mensagem *" maxlength="240" rows="2" cols="8"  
                         spellcheck="false" required></textarea>
-                        <span class="input-mensagem-erro">.</span>
+                        <span class="input-mensagem-erro"> </span>
                     </div>
                 </fieldset>
                 <p id="form-aa--status"></p>

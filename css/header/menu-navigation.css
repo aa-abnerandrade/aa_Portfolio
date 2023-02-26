@@ -2,7 +2,7 @@
     height: 85vh;
     width: 95%;
     margin: 1rem auto;
-    overflow: hidden;
+    overflow: scroll;
     background-color: var(--vermelhoAmenoTransparente);
 }
 

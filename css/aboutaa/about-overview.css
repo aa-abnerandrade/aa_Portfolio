@@ -112,7 +112,7 @@
 
 .sec-overview__video {
     display: flex;
-    max-width: 100%;
+    max-width: 100vw;
     opacity: .5;
     overflow: hidden;
     position: fixed;

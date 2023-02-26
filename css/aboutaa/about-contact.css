@@ -41,6 +41,9 @@
 
 .sec-contact__content__form--fieldarea span {
     font-size: .6em;
+    text-align: end;
+    width: 100%;
+    display: inline-block;
     font-family: 'ag regular';
     color: var(--vermelhoAmeno);
 }
