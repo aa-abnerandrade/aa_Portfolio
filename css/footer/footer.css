@@ -4,6 +4,8 @@
     text-align: center;
     width: 100%;
     color: var(--vermelhoAmenoTransparente);
+    position: relative;
+    bottom: 0;
 }
 
 
