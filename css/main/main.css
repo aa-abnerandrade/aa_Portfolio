@@ -21,3 +21,16 @@
     }
 
 }
+
+
+
+@media screen and (min-width: 1024px) {
+    
+    .cont-main {
+        min-width: -webkit-fill-available;
+        justify-content: center;
+    }
+
+
+}
+

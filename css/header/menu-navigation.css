@@ -71,3 +71,57 @@
     }
 
 
+
+
+@media screen and (min-width: 481px) {
+
+    .navigation__list--content {
+        font-size: 1em;
+    }
+
+}
+
+
+
+@media screen and (min-width: 769px) {
+
+    .navigation__list--content {
+        font-size: 1.25em;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    
+    .menu__navigation {
+        overflow: hidden;
+    }
+
+    .navigation__list--content {
+        font-size: .6em;
+    }
+
+    .menu__navigation--show {
+        height: 80vh;
+        width: 75vw;
+    }
+
+    #navigation__list--div-AA {
+        width: 50%;
+    }
+
+    #navigation__list--div-end {
+        width: 30%;
+    }
+
+    #navigation--go-to-AbnerAndrade {
+        font-size: 1.5em;
+    }
+
+    .navigation__list {
+        flex-direction: row;
+    }
+}
+

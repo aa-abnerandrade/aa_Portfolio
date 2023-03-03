@@ -30,10 +30,11 @@
 
 .projects__card--acordeon:hover {
     background-color: var(--vermelhoAmeno);
-    border-color: var(--amareloCintilante);
+    border-color: var(--vermelhoCintilante);
 }
 
 .card__trigger {
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -77,6 +78,41 @@
     text-align: center;
     padding: .25rem;
     line-height: 2rem;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+    
+    .main__projects { 
+        min-height: auto;
+        align-items: flex-end;
+    }
+
+
+    .projects__card--acordeon {
+        width: 50%;
+        margin: 0;
+    }
+
+    .projects__card--acordeon:hover {
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .card__trigger:hover {
+        color: var(--vermelhoAmeno);
+        font-size: 1.8rem;
+        transition: all .50s ease-in-out;
+    }
+
+    
+
+    
 }
 
 
