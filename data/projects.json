@@ -11,25 +11,78 @@
       "stack": 
         {
           "s1": "Java",
-          "s2": "Swing",
-          "s3": "JavaFX"
+          "s2": "Swing"
         }
     },
 
     {
-      "name": "Nazareth",
+      "name": "Tic-Tac-Toe",
       "brief": "Aplicação com interface que verifica se os segmentos informados podem ou não formar um triângulo.",
       "repository": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos",
       "demo": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos/raw/main/dist/TipoTriangulo.jar",
-      "image": "/images/screenshot-nazareth.png",
+      "image": "data/images/screenshot-tictactoe.png",
       "stack": 
         {
           "s1": "Java",
           "s2": "Swing",
           "s3": "JavaFX"
         }
-    }
+    },
 
+    {
+      "name": "Pokedex",
+      "brief": "Aplicação com interface que verifica se os segmentos informados podem ou não formar um triângulo.",
+      "repository": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos",
+      "demo": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos/raw/main/dist/TipoTriangulo.jar",
+      "image": "data/images/screenshot-pokedex.png",
+      "stack": 
+        {
+          "s1": "JavaScript",
+          "s2": "HTML",
+          "s3": "CSS"
+        }
+    },
+
+    {
+      "name": "Borrow Me",
+      "brief": "Aplicação com interface que verifica se os segmentos informados podem ou não formar um triângulo.",
+      "repository": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos",
+      "demo": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos/raw/main/dist/TipoTriangulo.jar",
+      "image": "data/images/screenshot-borrow.png",
+      "stack": 
+        {
+          "s1": "PHP",
+          "s2": "HTML",
+          "s3": "CSS",
+          "s4": "JavaScript"
+        }
+    },
+
+    {
+      "name": "Zombie Dice",
+      "brief": "Aplicação com interface que verifica se os segmentos informados podem ou não formar um triângulo.",
+      "repository": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos",
+      "demo": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos/raw/main/dist/TipoTriangulo.jar",
+      "image": "data/images/screenshot-zombiedice.png",
+      "stack": 
+        {
+          "s1": "Python"
+        }
+    },
+
+    {
+      "name": "Personal Page",
+      "brief": "Aplicação com interface que verifica se os segmentos informados podem ou não formar um triângulo.",
+      "repository": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos",
+      "demo": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos/raw/main/dist/TipoTriangulo.jar",
+      "image": "data/images/screenshot-portfolioaa.png",
+      "stack": 
+        {
+          "s1": "JavaScript",
+          "s2": "HTML",
+          "s3": "CSS"
+        }
+    }
 
   ]
 }
