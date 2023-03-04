@@ -5,12 +5,12 @@ const urlLinksContact = 'https://raw.githubusercontent.com/aa-abnerandrade/meu_p
 (async ()=> {
     const jProjectsData = await getFileData(urlProjects);
     console.log(jProjectsData);
+    showProjectsInMainHTML(jProjectsData);
 })();
 
 (async ()=> {
     const jContactData = await getFileData(urlLinksContact);
-    console.log(jContactData);
-    showLinksContactInHTML(jContactData);
+    showLinksContactInHeaderHTML(jContactData);
 })();
 
 

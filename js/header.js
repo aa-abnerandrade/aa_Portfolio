@@ -23,17 +23,10 @@ bttMenuMore.addEventListener('click', (e)=> {
 
 const lstLinksContact = document.querySelector('.cont-contact__links');
 
-function showLinksContactInHTML(jsonLinksContacts) {
-
+function showLinksContactInHeaderHTML(jsonLinksContacts) {
     const objLinkCont = jsonLinksContacts.links;
-    console.log(objLinkCont);
-
-    // jsonLinksContacts.forEach((contact)=> {
-    //     console.log(contact);
-    // })
 
     objLinkCont.forEach((contact)=> {
-        console.log(contact);
         lstLinksContact.innerHTML += 
         `
             <li class="cont-contact__links__item">

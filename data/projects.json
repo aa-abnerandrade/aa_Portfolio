@@ -1,13 +1,13 @@
 {
   "portfolio": [
-    
+
 
     {
       "name": "Nazareth",
       "brief": "Aplicação com interface que verifica se os segmentos informados podem ou não formar um triângulo.",
       "repository": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos",
       "demo": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos/raw/main/dist/TipoTriangulo.jar",
-      "image": "/images/screenshot-nazareth.png",
+      "image": "data/images/screenshot-nazareth.png",
       "stack": 
         {
           "s1": "Java",
