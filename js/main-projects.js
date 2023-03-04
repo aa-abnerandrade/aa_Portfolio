@@ -3,6 +3,7 @@ const secProjects = document.querySelector('#projects');
 
 function showProjectsInMainHTML(jsonProjects) {
     const objProjects = jsonProjects.portfolio;
+    
 
     objProjects.forEach((itemProject)=> {
         console.log(itemProject);
@@ -22,4 +23,5 @@ function showProjectsInMainHTML(jsonProjects) {
             </section>        
         `;
     })
+
 }
