@@ -3,16 +3,16 @@
       
         {
             "name": "GitHub",
-            "link": "https://github.com/aa-abnerandrade"
+            "url": "https://github.com/aa-abnerandrade"
         },
         {
             "name": "LinkedIn",
-            "link": "https://www.linkedin.com/in/abnerandrade/"
+            "url": "https://www.linkedin.com/in/abnerandrade/"
         },
         {
             "name": "WhatsApp",
-            "link": "https://api.whatsapp.com/send?phone=5521973257039&text=Ol%C3%A1%2C%20Abner!%20Vi%20teu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20com%20voc%C3%AA.%20"
-        }    
+            "url": "https://api.whatsapp.com/send?phone=5521973257039&text=Ol%C3%A1%2C%20Abner!%20Vi%20teu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20com%20voc%C3%AA.%20"
+        }   
   
     ]
   }

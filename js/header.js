@@ -20,3 +20,30 @@ bttMenuMore.addEventListener('click', (e)=> {
     }
 })
 
+
+const lstLinksContact = document.querySelector('.cont-contact__links');
+
+function showLinksContactInHTML(jsonLinksContacts) {
+
+    const objLinkCont = jsonLinksContacts.links;
+    console.log(objLinkCont);
+
+    // jsonLinksContacts.forEach((contact)=> {
+    //     console.log(contact);
+    // })
+
+    objLinkCont.forEach((contact)=> {
+        console.log(contact);
+        lstLinksContact.innerHTML += 
+        `
+            <li class="cont-contact__links__item">
+                <a href="${contact.url}" target="_blank">${contact.name} 
+                    <i class="uil uil-arrow-up-right"></i>
+                </a>
+            </li>
+        `;
+    })
+
+
+}
+
