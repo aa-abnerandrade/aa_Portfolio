@@ -242,3 +242,41 @@
     box-sizing: content-box;
 }
 
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .sec-faculties__card--acordeon {
+        margin: .1em auto;
+        width: 60%;
+    }
+
+    .trigger__title {
+        font-size: .8em;
+    }
+
+    .card__trigger {
+        padding: .6em;
+    }
+
+    .showAcordeon {
+        background-color: var(--vermelhoAmeno);
+    }
+
+    .sec-faculties__card__content__list-techs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sec-faculties__card__content__list-education {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+}
+
+

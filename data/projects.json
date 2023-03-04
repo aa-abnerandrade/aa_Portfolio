@@ -1,38 +1,35 @@
 {
   "portfolio": [
+    
+
     {
       "name": "Nazareth",
       "brief": "Aplicação com interface que verifica se os segmentos informados podem ou não formar um triângulo.",
       "repository": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos",
-      "image": "",
-      "stack": [
+      "demo": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos/raw/main/dist/TipoTriangulo.jar",
+      "image": "/images/screenshot-nazareth.png",
+      "stack": 
         {
           "s1": "Java",
           "s2": "Swing",
           "s3": "JavaFX"
         }
-      ],
-      "github": true
     },
-    {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
-      "github": true
-    },
+
     {
       "name": "Nazareth",
-      "url": "",
-      "github": true
-    },
-    {
-      "name": "Pokedex",
-      "url": "",
-      "github": true
-    },
-    {
-      "name": "Nazareth",
-      "url": "",
-      "github": true
+      "brief": "Aplicação com interface que verifica se os segmentos informados podem ou não formar um triângulo.",
+      "repository": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos",
+      "demo": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos/raw/main/dist/TipoTriangulo.jar",
+      "image": "/images/screenshot-nazareth.png",
+      "stack": 
+        {
+          "s1": "Java",
+          "s2": "Swing",
+          "s3": "JavaFX"
+        }
     }
+
+
   ]
 }

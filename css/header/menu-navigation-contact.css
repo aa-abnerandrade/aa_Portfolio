@@ -28,3 +28,20 @@
     font-size: 1.25em;
     color: var(--brancoAmeno);
 }
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .cont-contact__links {
+        flex-direction: column;
+    }
+
+
+    .cont-contact__links__item {
+        margin-bottom: 1em;
+    }
+
+
+}

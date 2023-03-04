@@ -60,6 +60,7 @@
     opacity: 1;
 }
 
+
 .card__content--screenshot {
     width: 100%;
 }
@@ -100,16 +101,36 @@
     }
 
     .projects__card--acordeon:hover {
-        background-color: transparent;
+        background-color: var(--vermelhoCintilanteTransparente);
         border-color: transparent;
     }
 
-    .card__trigger:hover {
-        color: var(--vermelhoAmeno);
-        font-size: 1.8rem;
-        transition: all .50s ease-in-out;
+    .showAcordeon {
+        background-color: var(--vermelhoCintilanteTransparente);
+        color: var(--brancoAmeno);
     }
 
+    .card__trigger {
+        color: var(--vermelhoAmeno);
+    }
+
+    .showAcordeon .trigger__title {
+        color: var(--brancoAmeno);
+    }
+
+    .card__trigger:hover {
+        color: var(--brancoAmeno);
+        font-size: 1.4rem;
+        transition: all .50s cubic-bezier(0.65, 0.05, 0.36, 1);
+    }
+
+    .showAcordeon.trigger__title {
+        color: var(--brancoAmeno);
+    }
+
+    .navigation__list--title {
+        font-size: 1em;
+    }
     
 
     

@@ -1,5 +1,7 @@
 .all {
     margin-top: 0;
+    background-image: url('/assets/imagens/gif/background-intro.gif');
+    background-size: cover;
 }
 
 .cont-section {
@@ -47,3 +49,36 @@
         color: var(--vermelhoCintilante);
         padding: 0.5rem 0;
     }
+
+
+
+
+@media screen and (min-width: 481px) {
+
+    
+
+}
+
+
+
+@media screen and (min-width: 769px) {
+
+    
+
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .cont-section__title {
+        margin-bottom: .6em;
+    }
+
+    .cont-section__scroll {
+        font-size: .6em;
+    }
+
+}
+
+

@@ -121,3 +121,29 @@
     height: 100vh;
 
 }
+
+
+
+@media screen and (min-width: 481px) {
+
+    
+
+}
+
+
+
+@media screen and (min-width: 769px) {
+
+    
+
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .intro__photo--div {
+        margin: 1em auto;
+    }
+
+}

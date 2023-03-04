@@ -80,4 +80,19 @@
     margin-bottom: .5em;
 }
 
+@media screen and (min-width: 1024px) {
+    
+    .sec-contact .cont-section__content {
+        width: 80%;
+    }
 
+    .sec-contact__content__form--fieldarea {
+        margin: 0;
+    }
+
+    .sec-contact__content--list {
+        flex-direction: row;
+        height: 20%;
+    }
+
+}
