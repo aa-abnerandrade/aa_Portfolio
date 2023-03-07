@@ -128,6 +128,7 @@
 
     .showAcordeon .card__content {
         display: flex;
+        padding-right: 0;
     }
 
     .card__trigger:hover {
@@ -144,6 +145,18 @@
     .card__content--screenshot {
         width: 70%;
         aspect-ratio: 16/11;
+    }
+
+    .card__content--area {
+        padding: 0 .5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30%;
+    }
+
+    .card__content--btts {
+        padding: 0;
     }
     
     

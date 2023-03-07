@@ -271,11 +271,30 @@
         justify-content: center;
     }
 
+    .sec-faculties__card__content__list-skills {
+        list-style: inside;
+        padding-left: 2rem;
+        font-size: .6em;
+        text-align: left;
+    }
+
+    .sec-faculties__card__content__text-skills {
+        font-size: .8rem;
+    }
+
     .sec-faculties__card__content__list-education {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        
+        justify-content: center;   
+    }
+
+    .list-languages__item {
+        font-size: .8rem;
+    }
+
+    .sec-faculties__card__content__list-experiences dd {
+        font-family: 'ag light';
+        font-size: .6em;
     }
 
 }

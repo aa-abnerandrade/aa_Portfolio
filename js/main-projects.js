@@ -6,7 +6,6 @@ function showProjectsInMainHTML(jsonProjects) {
     
 
     objProjects.forEach((itemProject)=> {
-        console.log(itemProject);
         secProjects.innerHTML += 
         `
             <section class="projects__card--acordeon">
@@ -15,10 +14,12 @@ function showProjectsInMainHTML(jsonProjects) {
                 </button>
                 <div class="card__content">
                     <img class="card__content--screenshot" src="${itemProject.image}" alt="Imagem da Aplicação ${itemProject.name}">
-                    <p class="card__content--brief">${itemProject.brief}</p>
-                    <div class="card__content--btts">
-                        <a class="allButtons card__button--repo" href="${itemProject.repository}" target="_blank">Repo</a>
-                        <a class="allButtons card__button--page" href="${itemProject.demo}" target="_blank">Demo</a>
+                    <div class="card__content--area">
+                        <p class="card__content--brief">${itemProject.brief}</p>
+                        <div class="card__content--btts">
+                            <a class="allButtons card__button--repo" href="${itemProject.repository}" target="_blank">Repo</a>
+                            <a class="allButtons card__button--page" href="${itemProject.demo}" target="_blank">Demo</a>
+                        </div>
                     </div>
                 </div>
             </section>        

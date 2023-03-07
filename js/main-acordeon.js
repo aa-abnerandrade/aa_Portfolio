@@ -1,20 +1,15 @@
 
 function selectTriggers() {
     const acordeonTriggers = document.querySelectorAll('.card__trigger');
-    console.log(acordeonTriggers);
-    console.log('passou aqui');
     
     
     acordeonTriggers.forEach((trigger)=> {
-        console.log(acordeonTriggers);
         
         trigger.addEventListener('click', (e)=> {
-            console.log('Trigger Clicado');
             const acordeon = trigger.parentElement;
             const isOpen = acordeon.classList.contains('showAcordeon');
     
             let allOpen = document.querySelectorAll('.showAcordeon');
-            console.log(allOpen);
     
             
     

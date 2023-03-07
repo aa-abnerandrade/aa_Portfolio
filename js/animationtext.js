@@ -1,6 +1,5 @@
 var contAnimatedText = document.querySelector('.animatedtext--content');
 
-console.log('Até TW');
 var typewriter = new Typewriter(contAnimatedText, {
   loop: true,
   delay: 50,
@@ -17,8 +16,6 @@ typewriter
   .typeString("\n       <span style='color:rgb(var(--brancoAbsoluto))'>'Java',</span>")
   .typeString("\n       <span style='color:rgb(var(--brancoAbsoluto))'>'Angular',</span>")
   .typeString("\n       <span style='color:rgb(var(--brancoAbsoluto))'>'Go'</span>")
-  .typeString("\n       <span style='color:rgb(var(--cor-tema))'>JAVA'</span>")
-  .typeString("\n       <span style='color:rgb(var(--cor-tema))'>'ADS',</span>")
   .typeString("\n    ]")
   .typeString("\n};  ")
   .pauseFor(5000)
