@@ -30,7 +30,16 @@
 .animatedtext--content {
     font-size: 4vw;
     max-width: 100%;
-    overflow: scroll;
+    
+}
+
+@media screen and (min-width: 769px) {
+
+    .animatedtext--content {
+        font-size: 1em;
+    }
+
+
 }
 
 

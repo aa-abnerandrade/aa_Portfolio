@@ -53,6 +53,7 @@
     background-color: transparent;
     color: var(--brancoAmeno);
     border: none;
+    cursor: pointer;
 }
 
 .sec-faculties__card--acordeon .card__content {

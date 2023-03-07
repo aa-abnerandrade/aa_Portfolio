@@ -6,7 +6,10 @@ const urlLinksContact = 'https://raw.githubusercontent.com/aa-abnerandrade/meu_p
     const jProjectsData = await getFileData(urlProjects);
     console.log(jProjectsData);
     showProjectsInMainHTML(jProjectsData);
-})();
+    // const acordeonTriggers2 = document.querySelectorAll('.card__trigger');
+    // console.log(acordeonTriggers2);
+
+})().then(()=> selectTriggers());
 
 (async ()=> {
     const jContactData = await getFileData(urlLinksContact);

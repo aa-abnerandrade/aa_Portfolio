@@ -17,7 +17,7 @@
 
     {
       "name": "Tic-Tac-Toe",
-      "brief": "Aplicação com interface que verifica se os segmentos informados podem ou não formar um triângulo.",
+      "brief": "Versão Digital do Passatempo Popular, conhecido no Brasil como 'Jogo da Velha'. Em desenvolvimento. ",
       "repository": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos",
       "demo": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos/raw/main/dist/TipoTriangulo.jar",
       "image": "data/images/screenshot-tictactoe.png",
@@ -31,7 +31,7 @@
 
     {
       "name": "Pokedex",
-      "brief": "Aplicação com interface que verifica se os segmentos informados podem ou não formar um triângulo.",
+      "brief": "Dispensa apresentações. Nesta versão, você encontrará filtros aprimorados e uma Dark Mode bastante irado.",
       "repository": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos",
       "demo": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos/raw/main/dist/TipoTriangulo.jar",
       "image": "data/images/screenshot-pokedex.png",
@@ -45,7 +45,7 @@
 
     {
       "name": "Borrow Me",
-      "brief": "Aplicação com interface que verifica se os segmentos informados podem ou não formar um triângulo.",
+      "brief": "Portal para o business fictício que objetiva promover o compartilhamento de itens sem uso.",
       "repository": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos",
       "demo": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos/raw/main/dist/TipoTriangulo.jar",
       "image": "data/images/screenshot-borrow.png",
@@ -60,7 +60,7 @@
 
     {
       "name": "Zombie Dice",
-      "brief": "Aplicação com interface que verifica se os segmentos informados podem ou não formar um triângulo.",
+      "brief": "Versão Digital do jogo de tabuleiro.",
       "repository": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos",
       "demo": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos/raw/main/dist/TipoTriangulo.jar",
       "image": "data/images/screenshot-zombiedice.png",
@@ -72,7 +72,7 @@
 
     {
       "name": "Personal Page",
-      "brief": "Aplicação com interface que verifica se os segmentos informados podem ou não formar um triângulo.",
+      "brief": "Portfólio que apresenta os principais projetos e contatos. ",
       "repository": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos",
       "demo": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos/raw/main/dist/TipoTriangulo.jar",
       "image": "data/images/screenshot-portfolioaa.png",
