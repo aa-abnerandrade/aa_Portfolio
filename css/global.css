@@ -49,7 +49,7 @@
 
 @font-face {
     font-family: 'ag light';
-    src: url('assets/fonts/akzidenzgrotesk-light.otf');
+    src: url('../assets/fonts/akzidenzgrotesk-light.otf');
 }
 
 @font-face {
@@ -59,12 +59,12 @@
 
 @font-face {
     font-family: 'ag bold';
-    src: url('assets/fonts/akzidenzgrotesk-bold.otf');
+    src: url('../assets/fonts/akzidenzgrotesk-bold.otf');
 }
 
 @font-face {
     font-family: 'ag black';
-    src: url('assets/fonts/akzidenzgrotesk-black.otf');
+    src: url('../assets/fonts/akzidenzgrotesk-black.otf');
 }
 
 @font-face {

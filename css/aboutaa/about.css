@@ -1,6 +1,6 @@
 .all {
     margin-top: 0;
-    background-image: url('/assets/imagens/gif/background-intro.gif');
+    background-image: url('../assets/imagens/gif/background-intro.gif');
     background-size: cover;
 }
 

@@ -1,7 +1,7 @@
 .cont-main {
     display: flex;
     max-width: 100%;
-    background-image: url('assets/imagens/gif/background-intro.gif');
+    background-image: url('../assets/imagens/gif/background-intro.gif');
     background-size: cover;
     min-height: 90vh;
 }
