@@ -1,5 +1,5 @@
 const inputs = document.querySelectorAll('.input');
-console.log(inputs.values);
+// console.log(inputs.values);
 
 
 

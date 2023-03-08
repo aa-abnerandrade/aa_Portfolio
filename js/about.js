@@ -2,9 +2,16 @@ const urlProfile = 'https://raw.githubusercontent.com/aa-abnerandrade/meu_portfo
 
 const urlLinksContact = 'https://raw.githubusercontent.com/aa-abnerandrade/meu_portfolio/improvement-responsividadetotal/data/contacts.json';
 
-(async ()=> {
-    const jProfileData = await getFileData(urlProfile);
-    console.log(jProfileData);
+
+(async()=> {
+    const jLinksSocial = await getFileData(urlLinksContact);
+    showLinksSocialInAboutHTML(jLinksSocial);
 })();
+
+
+// (async ()=> {
+//     const jProfileData = await getFileData(urlProfile);
+//     showLinksContactInAboutHTML(jProfileData);
+// })();
 
 
