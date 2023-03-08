@@ -28,22 +28,22 @@
 
 @font-face {
     font-family: 'sanssonder';
-    src: url('assets/fonts/sanssonder-bold.otf');
+    src: url('../assets/fonts/sanssonder-bold.otf');
 }
 
 @font-face {
     font-family: 'sanssonder rough';
-    src: url('assets/fonts/sanssonder-boldrough.otf');
+    src: url('../assets/fonts/sanssonder-boldrough.otf');
 }
 
 @font-face {
     font-family: 'slabsonder';
-    src: url('assets/fonts/slabsonder-bold.otf');
+    src: url('../assets/fonts/slabsonder-bold.otf');
 }
 
 @font-face {
     font-family: 'slabsonder rough';
-    src: url('assets/fonts/slabssonder-boldrough.otf');
+    src: url('../assets/fonts/slabssonder-boldrough.otf');
 }
 
 
@@ -54,7 +54,7 @@
 
 @font-face {
     font-family: 'ag regular';
-    src: url('assets/fonts/akzidenzgrotesk-regular.otf');
+    src: url('../assets/fonts/akzidenzgrotesk-regular.otf');
 }
 
 @font-face {
@@ -69,7 +69,7 @@
 
 @font-face {
     font-family: 'ag lightblack';
-    src: url('assets/fonts/akzidenzgrotesk-lightblack.otf');
+    src: url('../assets/fonts/akzidenzgrotesk-lightblack.otf');
 }
 
 
