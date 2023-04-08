@@ -33,18 +33,15 @@ function showLinksSocialInAboutHTML(jsonLinksSocial) {
 
 
 function showExperiencesInAboutHTML(jsonExperiences) {
-    console.log(jsonExperiences);
 
     lstExperiences.innerHTML += 
     jsonExperiences.map(exp=> 
         `
-            <dt>${name}</dt>
-            <dd>${description}</dd>
+            <dt>${exp.title}</dt>
+            <dd>${exp.description}</dd>
         
         `
-
-
-    )
+    ).join('');
 
 
 }
