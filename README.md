@@ -40,7 +40,7 @@
 
 Esta página está disponível no GitHub Pages. 
 
-Para acessar, <a href = "https://aa-abnerandrade.github.io/portfolio_aa/" target="_blank">clique aqui</a>.
+Para acessar, <a href = "https://aa-abnerandrade.github.io/aa_portfolio/" target="_blank">clique aqui</a>.
 
 <br><br>
 ## Autoria

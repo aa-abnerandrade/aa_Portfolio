@@ -1,6 +1,8 @@
 
 const lstLinksSocialHome = document.querySelector('.sec-overview__social--list');
+const lstExperiences = document.querySelector('.sec-faculties__card__content__list-experiences');
 const lstLinksSocialFooter = document.querySelector('.cont-footer__social__list');
+
 
 function showLinksSocialInAboutHTML(jsonLinksSocial) {
 
@@ -26,6 +28,24 @@ function showLinksSocialInAboutHTML(jsonLinksSocial) {
             </li>
         `         
     ).join('');
+
+}
+
+
+function showExperiencesInAboutHTML(jsonExperiences) {
+    console.log(jsonExperiences);
+
+    lstExperiences.innerHTML += 
+    jsonExperiences.map(exp=> 
+        `
+            <dt>${name}</dt>
+            <dd>${description}</dd>
+        
+        `
+
+
+    )
+
 
 }
 

@@ -62,16 +62,12 @@ function validaMessage(strInputMessage) {
 
 
 function validateTotal(inputFull) {
-    // console.log(inputFull);
-    // console.log(inputFull.name);
-    // console.log(inputFull.type);
     let inputContent = inputFull.value;
     let inputName = inputFull.name;
 
     if(inputContent == '') {
         
         inputFull.parentElement.querySelector('.input-mensagem-erro').innerHTML = `campo ${inputName} não pode estar vazio.`;
-        // console.log("Identificado erro no formulário")
     
     } else {
         let responseError;

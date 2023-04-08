@@ -70,15 +70,15 @@
   "professionalExperience": [
     
     {
-      "name": "Voluntariados",
+      "title": "Voluntariados",
       "description": "Onde tem trabalho a ser feito e uma pauta que me interessa, aí eu estarei. Tecnologia, Ensino, Educação, Causa Animal e Comunidade LGBTQIAP+ são temas em que busco colaborar ativamente. Atualmente participo do Clube de Programação da PUC-PR servindo os mais iniciantes nas disciplinas de Raciocínio Computacional, Programação Web e POO. Também integro o staff da Sou Junior, dando assistência nas atividades da comunidade no Discord. "
     },
     {
-      "name": "Academia",
+      "title": "Academia",
       "description": "Iniciei em Ciências Sociais na UFRJ, mas tranquei no 2º período. Em 2015 iniciei Administração na UFRRJ e explorei diversas vertentes: pesquisei na área de Marketing do Consumo, fui monitor de Matemática Financeira, presidi o Diretório, atuei na Empresa Júnior, servi como técnico-acadêmico em 2 projetos e compus a coordenação da Associação Livre de Centros e Diretórios, movimento que me abriu portas para atuar em Diretórios e Empresas Juniores na UFRJ, UEZO, UFF, UERJ e ESPM. Em 2022 iniciei ADS na UFF, mas preferi dar continuidade na PUC-PR, onde curso atualmente. "
     },
     {
-      "name": "Compras",
+      "title": "Compras",
       "description": "Atuei por 7 anos na área de Compras & Procurement, onde pude aplicar skills como capacidade analítica, gerenciamento de processos, análise de indicadores, gestão de equipe e liderança. Foi em Procurement onde tive o primeiro contato com manipulação e análise de dados e linguagens de programação, situação que me abriu meus olhos e encheu meu coração, e agora me dedico exclusivamente aos estudos de Programação e Tecnologia."
     }
     
