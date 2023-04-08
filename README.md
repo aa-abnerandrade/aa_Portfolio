@@ -39,7 +39,7 @@
 
 Esta página está disponível no GitHub Pages. 
 
-Para acessar, <a href = "https://aa-abnerandrade.github.io/meu_portfolio/" target="_blank">clique aqui</a>.
+Para acessar, <a href = "https://aa-abnerandrade.github.io/portfolio_aa/" target="_blank">clique aqui</a>.
 
 <br><br>
 ## Autoria
@@ -50,6 +50,6 @@ Abner Andrade Graduando em Análise e Desenvolvimento de Sistemas, apaixonado po
 <div style="display: flex">
   <a href = "https://www.linkedin.com/in/abnerandrade/"><img src="https://img.icons8.com/color/64/null/linkedin-circled--v1.png" target="_blank"></a>
   <a href = "https://api.whatsapp.com/send?phone=5521973257039&text=Oi,%20Abner.%20Curti%20teu%20Portfólio.%20%20Vamos%20trabalhar%20juntos?"><img src="https://img.icons8.com/color/64/null/whatsapp--v1.png" target="_blank"></a>
-  <a href = "mailto:aa.abnerandrade@outlook.com"><img src="https://img.icons8.com/fluency/64/null/microsoft-outlook-2019.png" target="_blank"></a>
+  <a href = "mailto:aa.abnerandrade@outlook.com.br"><img src="https://img.icons8.com/fluency/64/null/microsoft-outlook-2019.png" target="_blank"></a>
 </div>
 

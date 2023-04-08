@@ -31,7 +31,7 @@
 
     {
       "name": "Pokedex",
-      "brief": "Dispensa apresentações. Nesta versão, você encontrará filtros aprimorados e uma Dark Mode bastante irado.",
+      "brief": "Dispensa apresentações. Nesta versão, você encontrará filtros aprimorados e um Dark Mode bastante irado.",
       "repository": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos",
       "demo": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos/raw/main/dist/TipoTriangulo.jar",
       "image": "data/images/screenshot-pokedex.png",
