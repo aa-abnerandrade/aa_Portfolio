@@ -22,8 +22,9 @@
 ## Habilidades Praticadas
 
 - Construção e Consumo de API com Json
-- Responsabilidade com Mobile First
+- Responsividade com Mobile First
 - Conceitos de UI e UX
+- SEO
 
 
 <br><br>
