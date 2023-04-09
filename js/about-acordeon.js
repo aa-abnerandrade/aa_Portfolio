@@ -23,3 +23,5 @@ acordeonTriggers.forEach((trigger)=> {
 
     })
 })
+
+

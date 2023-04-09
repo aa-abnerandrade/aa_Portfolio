@@ -17,7 +17,3 @@ const urlLinksContact = 'https://raw.githubusercontent.com/aa-abnerandrade/aa_po
 const allMainPage = document.querySelector('.cont-main');
 
 
-
-
-
-

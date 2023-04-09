@@ -233,6 +233,12 @@
 
             .list-services__item h4 {
                 font-family: 'slabsonder';
+                font-size: .8rem;
+            }
+
+            .list-services__item p {
+                font-family: 'ag regular';
+                font-size: .6rem;
             }
 
 .sec-faculties .cont-section__scroll {
@@ -279,7 +285,8 @@
     }
 
     .sec-faculties__card__content__text-skills {
-        font-size: .8rem;
+        font-size: .6rem;
+        font-family: 'ag regular';
     }
 
     .sec-faculties__card__content__list-education {

@@ -96,13 +96,11 @@ function validateTotal(inputFull) {
 
 
 
-
-
-
 inputs.forEach((input)=> {
     input.addEventListener('blur', (e)=> {
         console.log(input.value);
         validateTotal(input);
     });   
 })
+
 

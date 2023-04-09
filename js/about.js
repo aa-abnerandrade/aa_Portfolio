@@ -11,9 +11,3 @@ const urlLinksContact = 'https://raw.githubusercontent.com/aa-abnerandrade/aa_po
 })();
 
 
-// (async ()=> {
-//     const jProfileData = await getFileData(urlProfile);
-//     showLinksContactInAboutHTML(jProfileData);
-// })();
-
-

@@ -15,7 +15,6 @@
 <div style="display: flex; max-width: 100%; justify-content: space-around;">
     <img style="width:20%;" src="https://img.icons8.com/color-glass/96/null/json.png" alt="Logo da Extensão Json">
     <img style="width:20%;" src="https://img.icons8.com/color/96/null/bootstrap.png" alt="Logo do Framework Bootstrap">
-    
 </div>
 
 <br><br>
@@ -31,7 +30,7 @@
 ## Screenshot
 
 <div style="display: flex; max-width: 100%; justify-content: space-around;">
-     <img style="height: auto; width: 80%;" src="./to_readme/screenshot.png" alt="Print da página">
+    <img style="height: auto; width: 80%;" src="./to_readme/screenshot.png" alt="Print da página">
 </div>
 
 
