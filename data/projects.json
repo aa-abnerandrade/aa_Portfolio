@@ -18,8 +18,8 @@
     {
       "name": "Tic-Tac-Toe",
       "brief": "Versão digital do passatempo popular conhecido no Brasil como 'Jogo da Velha'. Em desenvolvimento. ",
-      "repository": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos",
-      "demo": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos/raw/main/dist/TipoTriangulo.jar",
+      "repository": "#",
+      "demo": "#",
       "image": "data/images/screenshot-tictactoe.png",
       "stack": 
         {
@@ -32,8 +32,8 @@
     {
       "name": "Pokedex",
       "brief": "Dispensa apresentações. Nesta versão, você encontrará filtros aprimorados e um Dark Mode bastante irado.",
-      "repository": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos",
-      "demo": "https://github.com/aa-abnerandrade/pokedex_EnciclopediaPokemon/raw/main/dist/TipoTriangulo.jar",
+      "repository": "https://github.com/aa-abnerandrade/pokedex_EnciclopediaPokemon",
+      "demo": "https://aa-abnerandrade.github.io/pokedex_EnciclopediaPokemon/",
       "image": "data/images/screenshot-pokedex.png",
       "stack": 
         {
@@ -47,7 +47,7 @@
       "name": "Borrow Me",
       "brief": "Portal para o business fictício que objetiva promover o compartilhamento de itens sem uso.",
       "repository": "https://github.com/aa-abnerandrade/borrow_GerenciaEmprestimo",
-      "demo": "https://github.com/aa-abnerandrade/borrow_GerenciaEmprestimo/raw/main/dist/TipoTriangulo.jar",
+      "demo": "https://aa-abnerandrade.github.io/borrow_GerenciaEmprestimo/",
       "image": "data/images/screenshot-borrow.png",
       "stack": 
         {
@@ -59,22 +59,10 @@
     },
 
     {
-      "name": "Zombie Dice",
-      "brief": "Versão Digital do jogo de tabuleiro.",
-      "repository": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos",
-      "demo": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos/raw/main/dist/TipoTriangulo.jar",
-      "image": "data/images/screenshot-zombiedice.png",
-      "stack": 
-        {
-          "s1": "Python"
-        }
-    },
-
-    {
       "name": "Personal Page",
       "brief": "Portfólio que apresenta os principais projetos e contatos. ",
-      "repository": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos",
-      "demo": "https://github.com/aa-abnerandrade/nazareth_verificadortriangulos/raw/main/dist/TipoTriangulo.jar",
+      "repository": "https://github.com/aa-abnerandrade/aa_Portfolio",
+      "demo": "https://aa-abnerandrade.github.io/aa_Portfolio/",
       "image": "data/images/screenshot-portfolioaa.png",
       "stack": 
         {
