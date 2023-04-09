@@ -3,7 +3,6 @@ const allMainPage = document.querySelector('.cont-main');
 const acordeonTriggers = document.querySelectorAll('.card__trigger');
 
 acordeonTriggers.forEach((trigger)=> {
-    // console.log(acordeonTriggers);
 
     trigger.addEventListener('click', (e)=> {
         const acordeon = trigger.parentElement;

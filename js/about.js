@@ -1,6 +1,7 @@
-const urlProfile = 'https://raw.githubusercontent.com/aa-abnerandrade/aa_portfolio/improvement-responsividadetotal/data/profile.json';
 
-const urlLinksContact = 'https://raw.githubusercontent.com/aa-abnerandrade/aa_portfolio/improvement-responsividadetotal/data/contacts.json';
+const urlProfile = 'https://raw.githubusercontent.com/aa-abnerandrade/aa_Portfolio/release/data/profile.json';
+
+const urlLinksContact = 'https://raw.githubusercontent.com/aa-abnerandrade/aa_Portfolio/release/data/contacts.json';
 
 
 (async()=> {
